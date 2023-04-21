@@ -25,7 +25,11 @@ async function exmoData(data) {
   exmoUSDTPairs.map(el => {
     const pair = el.replace(/_/g, "/");
     const currency = el.replace(regEx, "");
-    const { ask_top: askPrice, ask_quantity: askQty, bid_top: bidPrice, bid_quantity: bidQty } = orderBooks.data[el];
+
+    const bidPrice = orderBooks.data[el].bid[0][0];
+    const bidQty = orderBooks.data[el].bid[0][1];
+    const askPrice = orderBooks.data[el].ask[0][0];
+    const askQty = orderBooks.data[el].ask[0][1];
     const exmoFees = fees.data[currency]
       .filter(el => el.type === "withdraw")
       .map(el => {
