@@ -22,7 +22,7 @@ async function arbitrage(dataObj) {
 
     const percentage = Number(
       (
-        ((maxSellPrice.sellPrice * minBuyPrice.buyQty - minBuyPrice.buyPrice * minBuyPrice.buyQty - minBuyPrice.buyPrice * fee) * 100) /
+        ((maxSellPrice.sellPrice * (minBuyPrice.buyQty - fee)- minBuyPrice.buyPrice * minBuyPrice.buyQty) * 100) /
         (minBuyPrice.buyPrice * minBuyPrice.buyQty)
       ).toFixed(2)
     );
