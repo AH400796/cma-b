@@ -1,0 +1,32 @@
+{
+  "name": "cca-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:prod": "cross-env NODE_ENV=production node ./server.js",
+    "start": "cross-env NODE_ENV=development nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "Andrii Hokhman, a.hokhman@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "binance-api-node": "^0.12.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
