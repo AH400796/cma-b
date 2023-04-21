@@ -15,6 +15,10 @@ const exclusions = [
     market: "MEXC",
     pair: "GMT/USDT",
   },
+  {
+    market: "MEXC",
+    pair: "QI/USDT",
+  },
 ];
 
 async function arbitrage(dataObj) {
