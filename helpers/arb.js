@@ -1,6 +1,5 @@
 async function arbitrage(data) {
   const pairsList = Object.keys(data);
-  console.log(pairsList);
 
   const arbData = pairsList.map(pair => {
     const minBuyPrice = data[pair].sort((a, b) => a.buyPrice - b.buyPrice)[0];
