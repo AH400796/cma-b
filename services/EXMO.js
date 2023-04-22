@@ -1,4 +1,6 @@
 const axios = require("axios");
+const exclusions = require("../exclusions/exclusions");
+
 
 const getPairsList = async function () {
   const result = await axios.get("https://api.exmo.com/v1.1/ticker");
@@ -24,6 +26,10 @@ async function exmoData(data) {
 
   exmoUSDTPairs.map(el => {
     const pair = el.replace(/_/g, "/");
+
+    if (exclusions.EXMO.includes(pair)) {
+      return null;
+    }
     const currency = el.replace(regEx, "");
     const bidPrice = orderBooks.data[el].bid[0][0];
     const bidQty = orderBooks.data[el].bid[0][1];
