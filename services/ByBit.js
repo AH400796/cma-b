@@ -33,8 +33,12 @@ const getWithdrawFeesList = async function () {
       "Content-Type": "application/json; charset=utf-8",
     },
   };
-  const result = await axios(config);
-  return result.data.result.rows;
+  try {
+    const result = await axios(config);
+    return result.data.result.rows;
+  } catch (error) {
+    console.log(error.message);
+  }
 };
 
 async function bybitData(data) {
@@ -47,10 +51,13 @@ async function bybitData(data) {
   bybitUSDTOrders.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");
     const feeSymbol = el.symbol.replace(/USDT/g, "");
-    const coinFee = fees.filter(el => el.coin === feeSymbol);
+
+    const coinFee = fees ? fees.filter(el => el.coin === feeSymbol) : {};
 
     const feeArr =
-      coinFee.length !== 0 ? coinFee[0].chains.map(el => [el.withdrawFee, feeSymbol, el.withdrawMin, el.chain + " " + `(${el.chainType})`]) : [];
+      !coinFee && coinFee.length !== 0
+        ? coinFee[0].chains.map(el => [el.withdrawFee, feeSymbol, el.withdrawMin, el.chain + " " + `(${el.chainType})`])
+        : [];
     const { askPrice, askQty, bidPrice, bidQty } = el;
     const precision = Number(askPrice) < 0.01 ? 0 : Number(Number(askPrice).toFixed(1).toString().indexOf(".")) + 1;
     const pairData = {
