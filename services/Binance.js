@@ -30,12 +30,17 @@ const getWithdrawFeesList = async function () {
   const fees = feesArr.map(el => [Number(el.withdrawFee), el.coin, Number(el.withdrawMin), el.name]);
   return fees;
 };
+let fees = null;
+const feesFunc = async () => {
+  const result = await getWithdrawFeesList();
+  fees = result;
+};
+feesFunc();
 
 async function binanceData(data) {
   const regEx = /USDT/;
   const binancePairList = await getPairsList();
   const binanceUSDTPairs = binancePairList.data.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));
-  const fees = await getWithdrawFeesList();
 
   binanceUSDTPairs.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");
@@ -46,7 +51,7 @@ async function binanceData(data) {
     const precision = Number(askPrice) < 0.01 ? 0 : Number(Number(askPrice).toFixed(1).toString().indexOf(".")) + 1;
 
     const pairData = {
-      market: "binance",
+      market: "BINANCE",
       url: `https://www.binance.com/uk-UA/trade/${symbol}?theme=dark&type=spot`,
       buyPrice: Number(askPrice),
       buyQty: Number(Number(askQty).toFixed(precision)),

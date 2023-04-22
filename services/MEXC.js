@@ -10,11 +10,17 @@ const getWithdrawFeesList = async function () {
   return result.data.data;
 };
 
+let fees = null;
+const feesFunc = async () => {
+  const result = await getWithdrawFeesList();
+  fees = result;
+};
+feesFunc();
+
 async function mexcData(data) {
   const regEx = /USDT/;
   const mexcOrders = await getPairOrders();
   const mexcUSDTOrders = mexcOrders.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));
-  const fees = await getWithdrawFeesList();
 
   mexcUSDTOrders.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");

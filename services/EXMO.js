@@ -14,13 +14,18 @@ const getWithdrawFeesList = async function () {
   const result = await axios.get("https://api.exmo.com/v1.1/payments/providers/crypto/list");
   return result;
 };
+let fees = null;
+const feesFunc = async () => {
+  const result = await getWithdrawFeesList();
+  fees = result;
+};
+feesFunc();
 
 async function exmoData(data) {
   const regEx = /_USDT/;
   const exmoPairList = await getPairsList();
   const exmoUSDTPairs = Object.keys(exmoPairList.data).filter(el => regEx.test(el));
   const orderBooks = await getPairOrders(exmoUSDTPairs.join(","));
-  const fees = await getWithdrawFeesList();
 
   exmoUSDTPairs.map(el => {
     const pair = el.replace(/_/g, "/");

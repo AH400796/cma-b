@@ -14,15 +14,14 @@ mongoose
       console.log("DB connected. Server running.");
     });
     getData();
-    const fetchData = async () => {
-      await getData();
-    };
 
-    const interval = setInterval(() => {
-      fetchData();
-    }, 30000);
-
-    setIntName = interval;
+    // const fetchData = async () => {
+    //   await getData();
+    // };
+    // const interval = setInterval(() => {
+    //   fetchData();
+    // }, 30000);
+    // setIntName = interval;
   })
   .catch(error => {
     console.log(error.message);

@@ -1,4 +1,4 @@
-const { exmoData, binanceData, mexcData } = require("../services");
+const { exmoData, binanceData, mexcData, bybitData } = require("../services");
 const { arbitrage } = require("../helpers");
 const path = require("path");
 const fs = require("fs").promises;
@@ -10,6 +10,7 @@ const getData = async () => {
   await exmoData(data);
   await binanceData(data);
   await mexcData(data);
+  await bybitData(data);
 
   const arb = await arbitrage(data);
   const sortData = arb.sort((a, b) => b[1] - a[1]);
