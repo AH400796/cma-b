@@ -34,17 +34,12 @@ const getWithdrawFeesList = async function () {
     },
   };
   const result = await axios(config);
-  return result.data;
+  return result.data.result.rows;
 };
-let fees = null;
-const feesFunc = async () => {
-  const result = await getWithdrawFeesList();
-  fees = result.result.rows;
-};
-feesFunc();
 
 async function bybitData(data) {
   const regEx = /USDT/;
+  const fees = await getWithdrawFeesList();
   const bybitOrders = await getPairOrders();
 
   const bybitUSDTOrders = bybitOrders.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));

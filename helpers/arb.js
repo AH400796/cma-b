@@ -57,11 +57,11 @@ const exclusions = [
   },
   {
     market: "BYBIT",
-    pair: "XPR3L/USDT",
+    pair: "XRP3L/USDT",
   },
   {
     market: "BYBIT",
-    pair: "XPR3S/USDT",
+    pair: "XRP3S/USDT",
   },
   {
     market: "BYBIT",

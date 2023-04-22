@@ -30,15 +30,10 @@ const getWithdrawFeesList = async function () {
   const fees = feesArr.map(el => [Number(el.withdrawFee), el.coin, Number(el.withdrawMin), el.name]);
   return fees;
 };
-let fees = null;
-const feesFunc = async () => {
-  const result = await getWithdrawFeesList();
-  fees = result;
-};
-feesFunc();
 
 async function binanceData(data) {
   const regEx = /USDT/;
+  const fees = await getWithdrawFeesList();
   const binancePairList = await getPairsList();
   const binanceUSDTPairs = binancePairList.data.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));
 
