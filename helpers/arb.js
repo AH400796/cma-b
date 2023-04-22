@@ -23,6 +23,54 @@ const exclusions = [
     market: "MEXC",
     pair: "QI/USDT",
   },
+  {
+    market: "MEXC",
+    pair: "HERO/USDT",
+  },
+  {
+    market: "MEXC",
+    pair: "DFI/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "MCT/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "PLT/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "BTC3S/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "BTC3L/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "ETH3S/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "ETH3L/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "XPR3L/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "XPR3S/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "DOT3L/USDT",
+  },
+  {
+    market: "BYBIT",
+    pair: "DOT3S/USDT",
+  },
 ];
 
 async function arbitrage(dataObj) {
