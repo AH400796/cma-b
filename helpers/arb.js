@@ -1,4 +1,4 @@
-async function arbitrage(data) {
+function arbitrage(data) {
   const pairsList = Object.keys(data);
 
   const arbData = pairsList.map(pair => {
