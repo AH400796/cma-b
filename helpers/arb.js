@@ -4,6 +4,10 @@ const exclusions = [
     pair: "GMT/USDT",
   },
   {
+    market: "EXMO",
+    pair: "PLCUC/USDT",
+  },
+  {
     market: "MEXC",
     pair: "GAS/USDT",
   },
