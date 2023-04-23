@@ -20,7 +20,25 @@ const getPairOrders = async function () {
   return result.data.result.list;
 };
 
-const getWithdrawFeesList = async function () {
+// const getWithdrawFeesList = async function () {
+//   const sign = getSignature(ByBitAPISecret);
+//   const config = {
+//     method: "GET",
+//     url: "https://api.bybit.com/asset/v3/private/coin-info/query",
+//     headers: {
+//       "X-BAPI-SIGN-TYPE": "2",
+//       "X-BAPI-SIGN": sign,
+//       "X-BAPI-API-KEY": apiKey,
+//       "X-BAPI-TIMESTAMP": timestamp,
+//       "X-BAPI-RECV-WINDOW": "30000",
+//       "Content-Type": "application/json; charset=utf-8",
+//     },
+//   };
+//   const result = await axios(config);
+//   return result.data.result.rows;
+// };
+
+async function bybitData(data) {
   const sign = getSignature(ByBitAPISecret);
   const config = {
     method: "GET",
@@ -35,12 +53,10 @@ const getWithdrawFeesList = async function () {
     },
   };
   const result = await axios(config);
-  return result.data.result.rows;
-};
+  const fees = await result.data.result.rows;
+  console.log(fees.length);
 
-async function bybitData(data) {
   const regEx = /USDT/;
-  const fees = await getWithdrawFeesList();
 
   const bybitOrders = await getPairOrders();
   const bybitUSDTOrders = bybitOrders.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));
