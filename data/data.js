@@ -1,4 +1,9 @@
-const { exmoData, binanceData, mexcData, bybitData } = require("../services");
+const {
+  exmoData,
+  binanceData,
+  mexcData,
+  // bybitData
+} = require("../services");
 
 const { arbitrage } = require("../helpers");
 const path = require("path");
@@ -11,7 +16,7 @@ const getData = async () => {
   await exmoData(data);
   await binanceData(data);
   await mexcData(data);
-  await bybitData(data);
+  // await bybitData(data);
 
   const date = new Date(Date.now());
   const updateTime = date.toLocaleDateString() + " / " + date.toLocaleTimeString();

@@ -1,5 +1,5 @@
 const axios = require("axios");
-const exclusions = require("../exclusions/exclusions");
+const getExclusions = require("../exclusions/exclusions");
 
 const getPairOrders = async function () {
   const result = await axios.get("https://api.mexc.com/api/v3/ticker/bookTicker");
@@ -12,6 +12,7 @@ const getWithdrawFeesList = async function () {
 };
 
 async function mexcData(data) {
+  const exclusions = await getExclusions();
   const regEx = /USDT/;
   const fees = await getWithdrawFeesList();
   const mexcOrders = await getPairOrders();
@@ -20,7 +21,7 @@ async function mexcData(data) {
   mexcUSDTOrders.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");
 
-    if (exclusions.MEXC.includes(pair)) {
+    if (exclusions.MEXC && exclusions.MEXC.includes(pair)) {
       return null;
     }
     const symbol = el.symbol.replace(/USDT/g, "_USDT");

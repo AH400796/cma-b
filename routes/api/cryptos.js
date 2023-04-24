@@ -1,8 +1,10 @@
 const express = require("express");
-const { getArbitrage } = require("../../controllers/cryptos");
+const { getArbitrage, addPair } = require("../../controllers/cryptos");
 
 const router = express.Router();
 
 router.get("/", getArbitrage);
+
+router.post("/:market/:symbol", addPair);
 
 module.exports = router;

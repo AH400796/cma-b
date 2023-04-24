@@ -1,11 +1,11 @@
 const axios = require("axios");
-const exclusions = require("../exclusions/exclusions");
+const getExclusions = require("../exclusions/exclusions");
 const crypto = require("crypto");
 
 const { ByBitAPIKey, ByBitAPISecret } = process.env;
 
 const apiKey = ByBitAPIKey;
-const recvWindow = 30000;
+const recvWindow = 59000;
 const timestamp = Date.now().toString();
 
 function getSignature(secret) {
@@ -39,6 +39,7 @@ const getPairOrders = async function () {
 // };
 
 async function bybitData(data) {
+  const exclusions = await getExclusions();
   const sign = getSignature(ByBitAPISecret);
   const config = {
     method: "GET",
@@ -48,13 +49,12 @@ async function bybitData(data) {
       "X-BAPI-SIGN": sign,
       "X-BAPI-API-KEY": apiKey,
       "X-BAPI-TIMESTAMP": timestamp,
-      "X-BAPI-RECV-WINDOW": "30000",
+      "X-BAPI-RECV-WINDOW": "59000",
       "Content-Type": "application/json; charset=utf-8",
     },
   };
   const result = await axios(config);
   const fees = await result.data.result.rows;
-  console.log(fees.length);
 
   const regEx = /USDT/;
 
@@ -64,7 +64,7 @@ async function bybitData(data) {
   bybitUSDTOrders.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");
 
-    if (exclusions.BYBIT.includes(pair)) {
+    if (exclusions.BYBIT && exclusions.BYBIT.includes(pair)) {
       return null;
     }
     const feeSymbol = el.symbol.replace(/USDT/g, "");
