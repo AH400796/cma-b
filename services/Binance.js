@@ -1,5 +1,5 @@
 const axios = require("axios");
-const getExclusions = require("../exclusions/exclusions");
+
 require("dotenv").config();
 
 const Binance = require("binance-api-node").default;
@@ -32,8 +32,7 @@ const getWithdrawFeesList = async function () {
   return fees;
 };
 
-async function binanceData(data) {
-  const exclusions = await getExclusions();
+async function binanceData(data, exclusions) {
   const regEx = /USDT/;
   const fees = await getWithdrawFeesList();
   const binancePairList = await getPairsList();
@@ -41,7 +40,7 @@ async function binanceData(data) {
 
   binanceUSDTPairs.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");
-    if (exclusions.BINANCE && exclusions.BINANCE.includes(pair)) {
+    if (exclusions.find(el => el.market === "BINANCE" && el.pair === pair)) {
       return null;
     }
     const symbol = el.symbol.replace(/USDT/g, "_USDT");

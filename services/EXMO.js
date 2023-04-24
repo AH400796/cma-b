@@ -1,5 +1,4 @@
 const axios = require("axios");
-const getExclusions = require("../exclusions/exclusions");
 
 const getPairsList = async function () {
   const result = await axios.get("https://api.exmo.com/v1.1/ticker");
@@ -16,8 +15,7 @@ const getWithdrawFeesList = async function () {
   return result;
 };
 
-async function exmoData(data) {
-  const exclusions = await getExclusions();
+async function exmoData(data, exclusions) {
   const fees = await getWithdrawFeesList();
   const regEx = /_USDT/;
   const exmoPairList = await getPairsList();
@@ -27,7 +25,7 @@ async function exmoData(data) {
   exmoUSDTPairs.map(el => {
     const pair = el.replace(/_/g, "/");
 
-    if (exclusions.EXMO && exclusions.EXMO.includes(pair)) {
+    if (exclusions.find(el => el.market === "EXMO" && el.pair === pair)) {
       return null;
     }
     const currency = el.replace(regEx, "");

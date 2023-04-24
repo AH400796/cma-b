@@ -1,5 +1,6 @@
 const express = require("express");
-const { getArbitrage, addPair } = require("../../controllers/cryptos");
+const { getArbitrage } = require("../../controllers/cryptos");
+const { addPair } = require("../../controllers/exclusions");
 
 const router = express.Router();
 

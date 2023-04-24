@@ -1,5 +1,6 @@
+const { getExclusions } = require("../controllers/exclusions");
 const {
-  // exmoData,
+  exmoData,
   binanceData,
   mexcData,
   // bybitData
@@ -12,11 +13,12 @@ const arbPath = path.join(__dirname, "./arb.json");
 const dataPath = path.join(__dirname, "./data.json");
 
 const getData = async () => {
+  const exclusions = (await getExclusions()) || [];
   const data = {};
-  // await exmoData(data);
-  await binanceData(data);
-  await mexcData(data);
-  // await bybitData(data);
+  await exmoData(data, exclusions);
+  await binanceData(data, exclusions);
+  await mexcData(data, exclusions);
+  // await bybitData(data,exclusions);
 
   const date = new Date(Date.now());
   const updateTime = date.toLocaleDateString() + " / " + date.toLocaleTimeString();

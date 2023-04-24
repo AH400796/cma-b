@@ -1,5 +1,5 @@
 const axios = require("axios");
-const getExclusions = require("../exclusions/exclusions");
+
 const crypto = require("crypto");
 
 const { ByBitAPIKey, ByBitAPISecret } = process.env;
@@ -38,8 +38,7 @@ const getPairOrders = async function () {
 //   return result.data.result.rows;
 // };
 
-async function bybitData(data) {
-  const exclusions = await getExclusions();
+async function bybitData(data, exclusions) {
   const sign = getSignature(ByBitAPISecret);
   const config = {
     method: "GET",
@@ -64,7 +63,7 @@ async function bybitData(data) {
   bybitUSDTOrders.map(el => {
     const pair = el.symbol.replace(/USDT/g, "/USDT");
 
-    if (exclusions.BYBIT && exclusions.BYBIT.includes(pair)) {
+    if (exclusions.find(el => el.market === "BYBIT" && el.pair === pair)) {
       return null;
     }
     const feeSymbol = el.symbol.replace(/USDT/g, "");
