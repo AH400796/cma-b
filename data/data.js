@@ -1,5 +1,5 @@
 const {
-  exmoData,
+  // exmoData,
   binanceData,
   mexcData,
   // bybitData
@@ -13,7 +13,7 @@ const dataPath = path.join(__dirname, "./data.json");
 
 const getData = async () => {
   const data = {};
-  await exmoData(data);
+  // await exmoData(data);
   await binanceData(data);
   await mexcData(data);
   // await bybitData(data);
