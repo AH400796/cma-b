@@ -14,9 +14,11 @@
     "binance-api-node": "^0.12.4",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "joi": "^17.9.1",
+    "kucoin-node-sdk": "^1.0.4",
     "mexc-api": "^0.0.23",
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0"

@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const getPairOrders = async function () {
-  const result = await axios.get("https://api.mexc.com/api/v3/ticker/bookTicker");
+  const result = await axios.get("https://api.kraken.com/0/public/Ticker");
   return result.data;
 };
 

@@ -4,6 +4,8 @@ const {
   binanceData,
   mexcData,
   // bybitData
+  // kucoinData,
+  okxData,
 } = require("../services");
 
 const { arbitrage } = require("../helpers");
@@ -18,13 +20,15 @@ const getData = async () => {
   await exmoData(data, exclusions);
   await binanceData(data, exclusions);
   await mexcData(data, exclusions);
+  // await kucoinData(data, exclusions);
   // await bybitData(data,exclusions);
+  await okxData(data, exclusions);
 
   const date = new Date(Date.now());
   const updateTime = date.toLocaleDateString() + " / " + date.toLocaleTimeString();
 
-  const arb = await arbitrage(data);
-  const sortData = arb.sort((a, b) => b[1] - a[1]);
+  const arb = arbitrage(data);
+  const sortData = arb.filter(el => el !== null).sort((a, b) => b[1] - a[1]);
   fs.writeFile(dataPath, JSON.stringify(data), "utf8");
   fs.writeFile(arbPath, JSON.stringify({ updateTime, sortData }), "utf8");
 };
