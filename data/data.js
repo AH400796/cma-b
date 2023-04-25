@@ -3,9 +3,9 @@ const {
   exmoData,
   binanceData,
   mexcData,
+  okxData,
   // bybitData
   // kucoinData,
-  okxData,
 } = require("../services");
 
 const { arbitrage } = require("../helpers");
@@ -20,9 +20,9 @@ const getData = async () => {
   await exmoData(data, exclusions);
   await binanceData(data, exclusions);
   await mexcData(data, exclusions);
+  await okxData(data, exclusions);
   // await kucoinData(data, exclusions);
   // await bybitData(data,exclusions);
-  await okxData(data, exclusions);
 
   const date = new Date(Date.now());
   const updateTime = date.toLocaleDateString() + " / " + date.toLocaleTimeString();

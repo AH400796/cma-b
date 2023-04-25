@@ -14,14 +14,15 @@ mongoose
       console.log(`DB connected. Server running at port ${PORT}.`);
     });
     getData();
-
-    const fetchData = async () => {
-      await getData();
-    };
-    const interval = setInterval(() => {
-      fetchData();
-    }, 30000);
-    setIntName = interval;
+    if (PORT !== 3010) {
+      const fetchData = async () => {
+        await getData();
+      };
+      const interval = setInterval(() => {
+        fetchData();
+      }, 30000);
+      setIntName = interval;
+    }
   })
   .catch(error => {
     console.log(error.message);
