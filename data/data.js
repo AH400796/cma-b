@@ -24,13 +24,12 @@ const getData = async () => {
   // await kucoinData(data, exclusions);
   // await bybitData(data,exclusions);
 
-  const date = new Date(Date.now());
-  const updateTime = date.toLocaleDateString() + " / " + date.toLocaleTimeString();
+  const date = Date.now();
 
   const arb = arbitrage(data);
   const sortData = arb.filter(el => el !== null).sort((a, b) => b[1] - a[1]);
   fs.writeFile(dataPath, JSON.stringify(data), "utf8");
-  fs.writeFile(arbPath, JSON.stringify({ updateTime, sortData }), "utf8");
+  fs.writeFile(arbPath, JSON.stringify({ date, sortData }), "utf8");
 };
 
 module.exports = getData;
