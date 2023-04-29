@@ -21,7 +21,8 @@
     "kucoin-node-sdk": "^1.0.4",
     "mexc-api": "^0.0.23",
     "mongoose": "^7.0.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "ws": "^8.13.0"
   },
   "devDependencies": {
     "eslint": "^8.38.0",

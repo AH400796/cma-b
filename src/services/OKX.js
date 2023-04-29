@@ -43,6 +43,7 @@ async function okxData(data, exclusions) {
   );
   okxUSDTOrders.map(el => {
     const pair = el.instId.replace(/-USDT/g, "/USDT");
+    const symbol = el.instId.replace(/-USDT/g, "");
     if (exclusions.find(el => el.market === "OKX" && el.pair === pair)) {
       return null;
     }
@@ -56,6 +57,8 @@ async function okxData(data, exclusions) {
       sellPrice: Number(bidPx),
       sellQty: Number(Number(bidSz).toFixed(precision)),
       fee: [],
+      withdrlUrl: `https://www.okx.com/ua/balance/withdrawal${symbol}`,
+      depUrl: `https://www.okx.com/balance/recharge${symbol}`,
     };
     if (!data[pair]) {
       data[pair] = [];

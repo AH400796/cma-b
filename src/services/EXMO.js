@@ -18,12 +18,14 @@ const getWithdrawFeesList = async function () {
 async function exmoData(data, exclusions) {
   const fees = await getWithdrawFeesList();
   const regEx = /_USDT/;
+
   const exmoPairList = await getPairsList();
   const exmoUSDTPairs = Object.keys(exmoPairList.data).filter(el => regEx.test(el));
   const orderBooks = await getPairOrders(exmoUSDTPairs.join(","));
 
   exmoUSDTPairs.map(el => {
     const pair = el.replace(/_/g, "/");
+    const symbol = el.replace(regEx, "");
 
     if (exclusions.find(el => el.market === "EXMO" && el.pair === pair)) {
       return null;
@@ -44,12 +46,14 @@ async function exmoData(data, exclusions) {
 
     const pairData = {
       market: "EXMO",
-      url: `https://exmo.com/ru/trade/${el}`,
+      url: `https://exmo.com/trade/${el}`,
       buyPrice: Number(askPrice),
       buyQty: Number(Number(askQty).toFixed(precision)),
       sellPrice: Number(bidPrice),
       sellQty: Number(Number(bidQty).toFixed(precision)),
       fee: exmoFees,
+      withdrlUrl: `https://exmo.com/wallet/withdrawal/${symbol}`,
+      depUrl: `https://exmo.com/wallet/deposit/${symbol}`,
     };
     if (!data[pair]) {
       data[pair] = [];

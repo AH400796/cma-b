@@ -57,6 +57,8 @@ async function binanceData(data, exclusions) {
       sellPrice: Number(bidPrice),
       sellQty: Number(Number(bidQty).toFixed(precision)),
       fee: feeArr,
+      withdrlUrl: `https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/${feeSymbol}`,
+      depUrl: `https://www.binance.com/en/my/wallet/account/main/deposit/crypto/${feeSymbol}`,
     };
     if (!data[pair]) {
       data[pair] = [];

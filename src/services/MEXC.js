@@ -40,6 +40,8 @@ async function mexcData(data, exclusions) {
       sellPrice: Number(bidPrice),
       sellQty: Number(Number(bidQty).toFixed(precision)),
       fee: feeArr,
+      withdrlUrl: `https://www.mexc.com/assets/withdraw/${feeSymbol}`,
+      depUrl: `https://www.mexc.com/assets/deposit/${feeSymbol}`,
     };
     if (!data[pair]) {
       data[pair] = [];
