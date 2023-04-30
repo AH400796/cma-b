@@ -1,34 +1,16 @@
 const axios = require("axios");
-// const crypto = require("crypto");
-
-// const { OKXAPIKey, OKXAPISecret, OKXPassphrase } = process.env;
-
-// const getWithdrawFeesList = async function () {
-//   const timestamp = new Date(Date.now()).toISOString();
-
-//   const string = timestamp + "GET" + `/api/v5/asset/currencies?ccy=BTC` + "";
-//   const sign = crypto.createHmac("sha256", OKXAPISecret).update(string).digest("base64");
-
-//   const config = {
-//     method: "GET",
-//     url: `https://www.okx.com/api/v5/asset/currencies?ccy=BTC`,
-//     headers: {
-//       "OK-ACCESS-KEY": OKXAPIKey,
-//       "OK-ACCESS-SIGN": sign,
-//       "OK-ACCESS-TIMESTAMP": timestamp,
-//       "OK-ACCESS-PASSPHRASE": OKXPassphrase,
-//     },
-//   };
-//   const result = await axios(config);
-//   return result.data.data;
-// };
+const path = require("path");
+const fs = require("fs").promises;
+const feesPath = path.join(__dirname, "../data/fees.json");
 
 const getPairOrders = async function () {
   const result = await axios.get(`https://www.okx.com/api/v5/market/tickers?instType=SPOT`);
   return result.data.data;
 };
-
+// Data processing
 async function okxData(data, exclusions) {
+  const result = await fs.readFile(feesPath, "utf8");
+  const fees = JSON.parse(result).okx || [];
   const regEx = /USDT/;
   const okxPairOrders = await getPairOrders();
 
@@ -47,6 +29,8 @@ async function okxData(data, exclusions) {
     if (exclusions.find(el => el.market === "OKX" && el.pair === pair)) {
       return null;
     }
+    const okxFee = fees.filter(el => el.symbol === symbol).map(el => el.fee);
+
     const { bidPx, bidSz, askPx, askSz } = el;
     const precision = Number(askPx) < 0.01 ? 0 : Number(Number(askPx).toFixed(1).toString().indexOf(".")) + 1;
     const pairData = {
@@ -56,7 +40,7 @@ async function okxData(data, exclusions) {
       buyQty: Number(Number(askSz).toFixed(precision)),
       sellPrice: Number(bidPx),
       sellQty: Number(Number(bidSz).toFixed(precision)),
-      fee: [],
+      fee: okxFee,
       withdrlUrl: `https://www.okx.com/ua/balance/withdrawal/${symbol}`,
       depUrl: `https://www.okx.com/balance/recharge/${symbol}`,
     };

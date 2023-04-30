@@ -1,40 +1,19 @@
 const axios = require("axios");
-
-require("dotenv").config();
-
-const Binance = require("binance-api-node").default;
-
-const { BinanceAPIKey, BinanceAPIsecret } = process.env;
-
-const client = Binance({
-  apiKey: BinanceAPIKey,
-  apiSecret: BinanceAPIsecret,
-  getTime: Date.now,
-});
+const path = require("path");
+const fs = require("fs").promises;
+const feesPath = path.join(__dirname, "../data/fees.json");
 
 const getPairsList = async function () {
   const result = await axios.get("https://api.binance.com/api/v3/ticker/bookTicker");
   return result;
 };
 
-const getWithdrawFeesList = async function () {
-  const res = await client.capitalConfigs();
-  const feesArr = [];
-  res.map(el =>
-    el.networkList.filter(el => {
-      if (Number(el.withdrawMin) !== 0) {
-        feesArr.push(el);
-      }
-      return null;
-    })
-  );
-  const fees = feesArr.map(el => [Number(el.withdrawFee), el.coin, Number(el.withdrawMin), el.name]);
-  return fees;
-};
-
+// Data processing
 async function binanceData(data, exclusions) {
+  const result = await fs.readFile(feesPath, "utf8");
+  const fees = JSON.parse(result).binance || [];
   const regEx = /USDT/;
-  const fees = await getWithdrawFeesList();
+
   const binancePairList = await getPairsList();
   const binanceUSDTPairs = binancePairList.data.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));
 
@@ -45,7 +24,7 @@ async function binanceData(data, exclusions) {
     }
     const symbol = el.symbol.replace(/USDT/g, "_USDT");
     const feeSymbol = el.symbol.replace(/USDT/g, "");
-    const feeArr = fees.filter(el => el[1] === feeSymbol);
+    const feeArr = fees.filter(el => el.symbol === feeSymbol).map(el => el.fee);
     const { askPrice, askQty, bidPrice, bidQty } = el;
     const precision = Number(askPrice) < 0.01 ? 0 : Number(Number(askPrice).toFixed(1).toString().indexOf(".")) + 1;
 

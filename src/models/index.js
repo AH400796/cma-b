@@ -1,5 +1,3 @@
 const Exclusion = require("./exclusions");
 
-module.exports = {
-  Exclusion,
-};
+module.exports = { Exclusion };
