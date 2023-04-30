@@ -41,8 +41,8 @@ async function okxData(data, exclusions) {
       sellPrice: Number(bidPx),
       sellQty: Number(Number(bidSz).toFixed(precision)),
       fee: okxFee,
-      withdrlUrl: `https://www.okx.com/ua/balance/withdrawal/${symbol}`,
-      depUrl: `https://www.okx.com/balance/recharge/${symbol}`,
+      withdrlUrl: `https://www.okx.com/ua/balance/withdrawal/${symbol.toLowerCase()}`,
+      depUrl: `https://www.okx.com/balance/recharge/${symbol.toLowerCase()}`,
     };
     if (!data[pair]) {
       data[pair] = [];
