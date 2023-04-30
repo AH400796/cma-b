@@ -82,7 +82,7 @@ async function getBybitFee(feesData) {
   const timestamp = Date.now().toString();
   const sign = crypto
     .createHmac("sha256", ByBitAPISecret)
-    .update(timestamp + ByBitAPIKey + "10000")
+    .update(timestamp + ByBitAPIKey + "50000")
     .digest("hex");
 
   const config = {
@@ -93,13 +93,13 @@ async function getBybitFee(feesData) {
       "X-BAPI-SIGN": sign,
       "X-BAPI-API-KEY": ByBitAPIKey,
       "X-BAPI-TIMESTAMP": timestamp,
-      "X-BAPI-RECV-WINDOW": "10000",
+      "X-BAPI-RECV-WINDOW": "50000",
       "Content-Type": "application/json; charset=utf-8",
     },
   };
   const result = await axios(config);
   console.log("data", result.data.result.rows);
-  result.data.result.rows.forEach(el => {
+  result?.data?.result.rows.forEach(el => {
     const coinName = el.name;
     const symbolName = el.coin;
     el.chains.forEach(el => {
@@ -109,7 +109,7 @@ async function getBybitFee(feesData) {
       const minWithValue = Number(el.withdrawMin);
       const symbol = symbolName;
       const fee = makeFee(amount, coin, network, minWithValue, symbol);
-      console.log("fee", fee);
+
       feesData.bybit.push(fee);
     });
   });
