@@ -5,15 +5,7 @@ const feesPath = path.join(__dirname, "./fees.json");
 require("dotenv").config();
 const crypto = require("crypto");
 
-const {
-  BinanceAPIKey,
-  BinanceAPIsecret,
-  OKXAPIKey,
-  OKXAPISecret,
-  OKXPassphrase,
-  // ByBitAPIKey,
-  // ByBitAPISecret
-} = process.env;
+const { BinanceAPIKey, BinanceAPIsecret, OKXAPIKey, OKXAPISecret, OKXPassphrase, ByBitAPIKey, ByBitAPISecret } = process.env;
 
 const Binance = require("binance-api-node").default;
 
@@ -31,7 +23,7 @@ const getWithdrawFeesList = async function () {
     await getBinanceFee(feesData);
     await getOkxFee(feesData);
     await getMexcFee(feesData);
-    // getBybitFee(feesData);
+    await getBybitFee(feesData);
   } catch (error) {
     console.log(error.message);
   }
@@ -94,48 +86,46 @@ async function getOkxFee(feesData) {
 }
 
 // Bybit
-// async function getBybitFee(feesData) {
-//   try {
-//     feesData.bybit = [];
-//     const timestamp = Date.now().toString();
-//     const sign = crypto
-//       .createHmac("sha256", ByBitAPISecret)
-//       .update(timestamp + ByBitAPIKey + "50000")
-//       .digest("hex");
+async function getBybitFee(feesData) {
+  feesData.bybit = [];
+  const timestamp = Date.now().toString();
+  const sign = crypto
+    .createHmac("sha256", ByBitAPISecret)
+    .update(timestamp + ByBitAPIKey + "50000")
+    .digest("hex");
 
-//     const config = {
-//       method: "GET",
-//       url: "https://api.bybit.com/v5/asset/coin/query-info",
-//       headers: {
-//         "X-BAPI-SIGN-TYPE": "2",
-//         "X-BAPI-SIGN": sign,
-//         "X-BAPI-API-KEY": ByBitAPIKey,
-//         "X-BAPI-TIMESTAMP": timestamp,
-//         "X-BAPI-RECV-WINDOW": "50000",
-//         "Content-Type": "application/json; charset=utf-8",
-//       },
-//     };
-//     const result = await axios(config);
-//     console.log("data", result.data.result.rows);
-//     result?.data?.result.rows.forEach(el => {
-//       const coinName = el.name;
-//       const symbolName = el.coin;
-//       el.chains.forEach(el => {
-//         const amount = Number(el.withdrawFee);
-//         const coin = coinName;
-//         const network = el.chainType;
-//         const minWithValue = Number(el.withdrawMin);
-//         const symbol = symbolName;
-//         const fee = makeFee(amount, coin, network, minWithValue, symbol);
-
-//         feesData.bybit.push(fee);
-//       });
-//     });
-//   } catch (error) {
-//     console.log(error.message);
-//   }
-
-// }
+  const config = {
+    method: "GET",
+    url: "https://api.bybit.com/v5/asset/coin/query-info",
+    headers: {
+      "X-BAPI-SIGN-TYPE": "2",
+      "X-BAPI-SIGN": sign,
+      "X-BAPI-API-KEY": ByBitAPIKey,
+      "X-BAPI-TIMESTAMP": timestamp,
+      "X-BAPI-RECV-WINDOW": "50000",
+      "Content-Type": "application/json; charset=utf-8",
+    },
+  };
+  try {
+    const result = await axios(config);
+    console.log("data", result.data.result.rows);
+    result.data.result.rows.forEach(el => {
+      const coinName = el.name;
+      const symbolName = el.coin;
+      el.chains.forEach(el => {
+        const amount = Number(el.withdrawFee);
+        const coin = coinName;
+        const network = el.chainType;
+        const minWithValue = Number(el.withdrawMin);
+        const symbol = symbolName;
+        const fee = makeFee(amount, coin, network, minWithValue, symbol);
+        feesData.bybit.push(fee);
+      });
+    });
+  } catch (error) {
+    console.log(error.message);
+  }
+}
 
 // Binance
 async function getBinanceFee(feesData) {
