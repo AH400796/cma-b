@@ -69,7 +69,7 @@ async function getOkxFee(feesData) {
   result.data.data.forEach(el => {
     const amount = Number(el.minFee);
     const coin = el.ccy;
-    const network = el.chain;
+    const network = el.chain.includes("ERC20") ? "ERC20" : el.chain;
     const minWithValue = Number(el.minWd);
     const symbol = el.ccy;
     const fee = makeFee(amount, coin, network, minWithValue, symbol);
