@@ -17,6 +17,7 @@ const getPairOrders = async function () {
 async function bybitData(data, exclusions) {
   const result = await fs.readFile(feesPath, "utf8");
   const fees = JSON.parse(result).bybit || [];
+  console.log(fees);
   const regEx = /USDT/;
   const bybitOrders = await getPairOrders();
   const bybitUSDTOrders = bybitOrders.filter(el => regEx.test(el.symbol) & (Number(el.bidPrice) !== 0) & !el.symbol.startsWith("USDT"));
