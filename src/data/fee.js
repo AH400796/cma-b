@@ -98,6 +98,7 @@ async function getBybitFee(feesData) {
     },
   };
   const result = await axios(config);
+  console.log("data", result.data.result.rows);
   result.data.result.rows.forEach(el => {
     const coinName = el.name;
     const symbolName = el.coin;
@@ -108,6 +109,7 @@ async function getBybitFee(feesData) {
       const minWithValue = Number(el.withdrawMin);
       const symbol = symbolName;
       const fee = makeFee(amount, coin, network, minWithValue, symbol);
+      console.log("fee", fee);
       feesData.bybit.push(fee);
     });
   });
