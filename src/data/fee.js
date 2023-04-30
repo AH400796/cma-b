@@ -26,11 +26,15 @@ const client = Binance({
 // GET fee
 const getWithdrawFeesList = async function () {
   const feesData = {};
-  getExmoFee(feesData);
-  getBinanceFee(feesData);
-  getOkxFee(feesData);
-  getMexcFee(feesData);
-  // getBybitFee(feesData);
+  try {
+    await getExmoFee(feesData);
+    await getBinanceFee(feesData);
+    await getOkxFee(feesData);
+    await getMexcFee(feesData);
+    // getBybitFee(feesData);
+  } catch (error) {
+    console.log(error.message);
+  }
 
   fs.writeFile(feesPath, JSON.stringify(feesData), "utf8");
 };
