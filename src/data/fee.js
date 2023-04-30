@@ -108,7 +108,7 @@ async function getBybitFee(feesData) {
   };
   try {
     const result = await axios(config);
-    console.log("data", result.data.result.rows);
+    console.log(typeof result);
     result.data.result.rows.forEach(el => {
       const coinName = el.name;
       const symbolName = el.coin;
