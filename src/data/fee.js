@@ -5,11 +5,9 @@ const feesPath = path.join(__dirname, "./fees.json");
 require("dotenv").config();
 const crypto = require("crypto");
 
-const { OKXAPIKey, OKXAPISecret, OKXPassphrase } = process.env;
+const { BinanceAPIKey, BinanceAPIsecret, OKXAPIKey, OKXAPISecret, OKXPassphrase, ByBitAPIKey, ByBitAPISecret } = process.env;
 
 const Binance = require("binance-api-node").default;
-
-const { BinanceAPIKey, BinanceAPIsecret } = process.env;
 
 const client = Binance({
   apiKey: BinanceAPIKey,
@@ -25,6 +23,7 @@ const getWithdrawFeesList = async function () {
     await getBinanceFee(feesData);
     await getOkxFee(feesData);
     await getMexcFee(feesData);
+    await getBybitFee(feesData);
   } catch (error) {
     console.log(error.message);
   }
@@ -74,6 +73,43 @@ async function getOkxFee(feesData) {
     const symbol = el.ccy;
     const fee = makeFee(amount, coin, network, minWithValue, symbol);
     feesData.okx.push(fee);
+  });
+}
+
+// Bybit
+async function getBybitFee(feesData) {
+  feesData.bybit = [];
+  const timestamp = Date.now().toString();
+  const sign = crypto
+    .createHmac("sha256", ByBitAPISecret)
+    .update(timestamp + ByBitAPIKey + "10000")
+    .digest("hex");
+
+  const config = {
+    method: "GET",
+    url: "https://api.bybit.com/v5/asset/coin/query-info",
+    headers: {
+      "X-BAPI-SIGN-TYPE": "2",
+      "X-BAPI-SIGN": sign,
+      "X-BAPI-API-KEY": ByBitAPIKey,
+      "X-BAPI-TIMESTAMP": timestamp,
+      "X-BAPI-RECV-WINDOW": "10000",
+      "Content-Type": "application/json; charset=utf-8",
+    },
+  };
+  const result = await axios(config);
+  result.data.result.rows.forEach(el => {
+    const coinName = el.name;
+    const symbolName = el.coin;
+    el.chains.forEach(el => {
+      const amount = Number(el.withdrawFee);
+      const coin = coinName;
+      const network = el.chainType;
+      const minWithValue = Number(el.withdrawMin);
+      const symbol = symbolName;
+      const fee = makeFee(amount, coin, network, minWithValue, symbol);
+      feesData.bybit.push(fee);
+    });
   });
 }
 
