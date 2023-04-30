@@ -10,7 +10,7 @@ const {
   binanceData,
   mexcData,
   okxData,
-  bybitData,
+  // bybitData,
   // kucoinData,
 } = require("../services");
 
@@ -22,7 +22,7 @@ const getData = async () => {
   await mexcData(data, exclusions);
   await okxData(data, exclusions);
   // await kucoinData(data, exclusions);
-  await bybitData(data, exclusions);
+  // await bybitData(data, exclusions);
 
   const date = Date.now();
   const arb = getArbitrage(data);
