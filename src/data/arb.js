@@ -1,4 +1,4 @@
-function getArbitrage(data) {
+function getArbitrageData(data) {
   const pairsList = Object.keys(data);
   const arbData = pairsList.map(pair => {
     const minBuyPrice = data[pair].sort((a, b) => a.buyPrice - b.buyPrice)[0];
@@ -13,4 +13,4 @@ function getArbitrage(data) {
   return arbData;
 }
 
-module.exports = getArbitrage;
+module.exports = getArbitrageData;

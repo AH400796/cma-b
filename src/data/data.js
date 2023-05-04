@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs").promises;
-const { getExclusions } = require("../controllers/exclusions");
+const { exclCtrls } = require("../controllers");
 const getArbitrage = require("./arb");
 const arbPath = path.join(__dirname, "./arb.json");
 const dataPath = path.join(__dirname, "./data.json");
@@ -15,7 +15,7 @@ const {
 } = require("../services");
 
 const getData = async () => {
-  const exclusions = (await getExclusions()) || [];
+  const exclusions = (await exclCtrls.getExclusions()) || [];
   const data = {};
   await exmoData(data, exclusions);
   await binanceData(data, exclusions);

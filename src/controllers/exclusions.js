@@ -10,7 +10,7 @@ const getExclusions = async () => {
   }
 };
 
-const addPair = async (req, res, next) => {
+const addExclPair = async (req, res, next) => {
   const { market, symbol } = req.params;
   const pair = symbol + "/USDT";
   const data = await Exclusion.find({}, "-createdAt -updatedAt");
@@ -23,5 +23,5 @@ const addPair = async (req, res, next) => {
 
 module.exports = {
   getExclusions,
-  addPair: ctrlWrapper(addPair),
+  addExclPair: ctrlWrapper(addExclPair),
 };
