@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const app = require("./app");
 const logger = require("morgan");
-// const { getData } = require("./src/data");
+const { getData } = require("./src/data");
 const { getWithdrawFeesList } = require("./src/data");
 require("dotenv").config();
 
@@ -19,8 +19,8 @@ const { DB_HOST, PORT = 3010 } = process.env;
 
 mongoose.set("strictQuery", true);
 let setIntName;
-// let data = {};
-// const users = [];
+let data = {};
+const users = [];
 
 mongoose
   .connect(DB_HOST)
@@ -29,34 +29,34 @@ mongoose
       console.log(`DB connected. Server running at port ${PORT}.`);
     });
     getWithdrawFeesList();
-    io.disconnectSockets();
-    // io.sockets.on("connection", async client => {
-    //   users.push(client.id);
-    //   console.log(`${users.length} users connected`);
-    //   console.table(users);
 
-    //   data = await getData();
-    //   client.emit("updatedData", data);
+    io.sockets.on("connection", async client => {
+      users.push(client.id);
+      console.log(`${users.length} users connected`);
+      console.table(users);
 
-    //   const fetchData = async () => {
-    //     data = await getData();
-    //     client.emit("updatedData", data);
-    //     console.log(`${client.id} recived updated data`);
-    //   };
+      data = await getData();
+      client.emit("updatedData", data);
 
-    //   const interval = setInterval(() => {
-    //     fetchData();
-    //   }, 10000);
-    //   setIntName = interval;
+      const fetchData = async () => {
+        data = await getData();
+        client.emit("updatedData", data);
+        console.log(`${client.id} recived updated data`);
+      };
 
-    //   client.on("disconnect", () => {
-    //     clearInterval(setIntName);
-    //     const index = users.indexOf(client.id);
-    //     users.splice(index, 1);
-    //     console.log(`${users.length} users connected: user ${client.id} disconnected`);
-    //     console.table(users);
-    //   });
-    // });
+      const interval = setInterval(() => {
+        fetchData();
+      }, 10000);
+      setIntName = interval;
+
+      client.on("disconnect", () => {
+        clearInterval(setIntName);
+        const index = users.indexOf(client.id);
+        users.splice(index, 1);
+        console.log(`${users.length} users connected: user ${client.id} disconnected`);
+        console.table(users);
+      });
+    });
   })
   .catch(error => {
     console.log(error.message);
