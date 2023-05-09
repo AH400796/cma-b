@@ -50,7 +50,7 @@ mongoose
       setIntName = interval;
 
       client.on("disconnect", () => {
-        console.log(client.id);
+        clearInterval(setIntName);
         const index = users.indexOf(client.id);
         users.splice(index, 1);
         console.log(`${users.length} users connected: user ${client.id} disconnected`);
