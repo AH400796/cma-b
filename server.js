@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 const app = require("./app");
+const logger = require("morgan");
 const { getData } = require("./src/data");
 const { getWithdrawFeesList } = require("./src/data");
 require("dotenv").config();
 
 const http = require("http");
+app.use(logger("dev"));
+
 const server = http.createServer(app);
 const io = require("socket.io")(server, {
   cors: {
@@ -38,6 +41,7 @@ mongoose
       const fetchData = async () => {
         data = await getData();
         client.emit("updatedData", data);
+        console.log(`${client.id} recived updated data`);
       };
 
       const interval = setInterval(() => {
@@ -49,7 +53,7 @@ mongoose
         console.log(client.id);
         const index = users.indexOf(client.id);
         users.splice(index, 1);
-        console.log(`${users.length} users connected`, `user ${client.id} disconnect`);
+        console.log(`${users.length} users connected: user ${client.id} disconnected`);
         console.table(users);
       });
     });

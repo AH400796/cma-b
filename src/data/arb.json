@@ -1,1 +1,2523 @@
-{"date":1683640264884,"sortData":[["WSB/USDT",4143798,{"market":"MEXC","url":"https://www.mexc.com/exchange/WSB_USDT","buyPrice":1.098e-7,"buyQty":9942260,"sellPrice":1.09e-7,"sellQty":92773036,"fee":[[195017609,"WSB","ERC20",100000000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/WSB","depUrl":"https://www.mexc.com/assets/deposit/WSB"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/WSB-USDT","buyPrice":0.004565,"buyQty":158,"sellPrice":0.00455,"sellQty":30539,"fee":[[7747.58967111,"WSB","ERC20",0.1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/wsb","depUrl":"https://www.okx.com/balance/recharge/wsb"}],["FUN/USDT",6.37,{"market":"MEXC","url":"https://www.mexc.com/exchange/FUN_USDT","buyPrice":0.005024,"buyQty":2889,"sellPrice":0.004999,"sellQty":4858,"fee":[[862.068965,"FUN","ERC20",1724.13793]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/FUN","depUrl":"https://www.mexc.com/assets/deposit/FUN"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/FUN_USDT?theme=dark&type=spot","buyPrice":0.005346,"buyQty":2736,"sellPrice":0.005344,"sellQty":3028,"fee":[[2428,"FUN","Ethereum (ERC20)",4856]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/FUN","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/FUN"}],["PRQ/USDT",4.01,{"market":"MEXC","url":"https://www.mexc.com/exchange/PRQ_USDT","buyPrice":0.0923,"buyQty":642.73,"sellPrice":0.09178,"sellQty":141.5,"fee":[[113,"PRQ","ERC20",30],[7,"PRQ","BEP20(BSC)",2]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/PRQ","depUrl":"https://www.mexc.com/assets/deposit/PRQ"},{"market":"EXMO","url":"https://exmo.com/trade/PRQ_USDT","buyPrice":0.09604593,"buyQty":1912.43,"sellPrice":0.096,"sellQty":104.17,"fee":[[20,"PRQ","PRQ(ERC20)",100]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/PRQ","depUrl":"https://exmo.com/wallet/deposit/PRQ"}],["FODL/USDT",3.16,{"market":"MEXC","url":"https://www.mexc.com/exchange/FODL_USDT","buyPrice":0.002908,"buyQty":7228,"sellPrice":0.002882,"sellQty":78506,"fee":[[5226,"FODL","ERC20",60]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/FODL","depUrl":"https://www.mexc.com/assets/deposit/FODL"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/FODL-USDT","buyPrice":0.00301,"buyQty":310,"sellPrice":0.003,"sellQty":2017,"fee":[[2065.40731898,"FODL","ERC20",0.01]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/fodl","depUrl":"https://www.okx.com/balance/recharge/fodl"}],["BORING/USDT",1.95,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/BORING-USDT","buyPrice":0.00313,"buyQty":47019,"sellPrice":0.00312,"sellQty":33068,"fee":[[1865.93336797,"BORING","ERC20",0.1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/boring","depUrl":"https://www.okx.com/balance/recharge/boring"},{"market":"MEXC","url":"https://www.mexc.com/exchange/BORING_USDT","buyPrice":0.003225,"buyQty":5382,"sellPrice":0.003191,"sellQty":20217,"fee":[[5326,"BORING","ERC20",300],[38,"BORING","BEP20(BSC)",30]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/BORING","depUrl":"https://www.mexc.com/assets/deposit/BORING"}],["VRA/USDT",1.67,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/VRA-USDT","buyPrice":0.00473,"buyQty":75739,"sellPrice":0.00471,"sellQty":955632,"fee":[[2915.45391257,"VRA","ERC20",10]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/vra","depUrl":"https://www.okx.com/balance/recharge/vra"},{"market":"MEXC","url":"https://www.mexc.com/exchange/VRA_USDT","buyPrice":0.00486,"buyQty":6213,"sellPrice":0.004809,"sellQty":14589,"fee":[[4048,"VRA","ERC20",1000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/VRA","depUrl":"https://www.mexc.com/assets/deposit/VRA"}],["EDEN/USDT",1.19,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/EDEN-USDT","buyPrice":0.0598,"buyQty":1829.68,"sellPrice":0.0597,"sellQty":1046.77,"fee":[[152.47805424,"EDEN","ERC20",0.000001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/eden","depUrl":"https://www.okx.com/balance/recharge/eden"},{"market":"MEXC","url":"https://www.mexc.com/exchange/EDEN_USDT","buyPrice":0.06052,"buyQty":227.44,"sellPrice":0.06051,"sellQty":87.32,"fee":[[66,"EDEN","ERC20",120]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/EDEN","depUrl":"https://www.mexc.com/assets/deposit/EDEN"}],["RADAR/USDT",1.12,{"market":"MEXC","url":"https://www.mexc.com/exchange/RADAR_USDT","buyPrice":0.007427,"buyQty":5364,"sellPrice":0.007242,"sellQty":5263,"fee":[[2113,"RADAR","ERC20",500]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/RADAR","depUrl":"https://www.mexc.com/assets/deposit/RADAR"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/RADAR-USDT","buyPrice":0.00753,"buyQty":1700,"sellPrice":0.00751,"sellQty":5261,"fee":[[100,"RADAR","ERC20",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/radar","depUrl":"https://www.okx.com/balance/recharge/radar"}],["STETH/USDT",1.11,{"market":"MEXC","url":"https://www.mexc.com/exchange/STETH_USDT","buyPrice":1810.92,"buyQty":0.0038,"sellPrice":1789.28,"sellQty":0.1136,"fee":[[0.0109047,"STETH","ERC20",0.01]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/STETH","depUrl":"https://www.mexc.com/assets/deposit/STETH"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/STETH/USDT","buyPrice":1833.98,"buyQty":0.02675,"sellPrice":1830.97,"sellQty":0.00748,"fee":[[0.0135,"STETH","ERC20",0.0135]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["MIR/USDT",0.75,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/MIR-USDT","buyPrice":0.053,"buyQty":6302.11,"sellPrice":0.052,"sellQty":2392.58,"fee":[[1,"MIR","MIR-Terra Classic",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/mir","depUrl":"https://www.okx.com/balance/recharge/mir"},{"market":"MEXC","url":"https://www.mexc.com/exchange/MIR_USDT","buyPrice":0.05469,"buyQty":848.96,"sellPrice":0.0534,"sellQty":6.96,"fee":[[177,"MIR","ERC20",50]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/MIR","depUrl":"https://www.mexc.com/assets/deposit/MIR"}],["3P/USDT",0.72,{"market":"MEXC","url":"https://www.mexc.com/exchange/3P_USDT","buyPrice":2.77e-8,"buyQty":1191713734,"sellPrice":2.738e-8,"sellQty":928172591,"fee":[[11500000,"3P","BEP20(BSC)",20000000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/3P","depUrl":"https://www.mexc.com/assets/deposit/3P"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/3P/USDT","buyPrice":2.822e-8,"buyQty":670549897,"sellPrice":2.79e-8,"sellQty":1290322581,"fee":[[1000000,"3P","BSC (BEP20)",1000000]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["HIFI/USDT",0.63,{"market":"MEXC","url":"https://www.mexc.com/exchange/HIFI_USDT","buyPrice":0.3625,"buyQty":61.96,"sellPrice":0.3565,"sellQty":223.84,"fee":[[1,"HIFI","ETH",2]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/HIFI","depUrl":"https://www.mexc.com/assets/deposit/HIFI"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/HIFI_USDT?theme=dark&type=spot","buyPrice":0.3653,"buyQty":1690.1,"sellPrice":0.3648,"sellQty":98.6,"fee":[[35,"HIFI","Ethereum (ERC20)",70]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/HIFI","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/HIFI"}],["DOGE/USDT",0.57,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/DOGE_USDT?theme=dark&type=spot","buyPrice":0.07288,"buyQty":56975,"sellPrice":0.07287,"sellQty":214615,"fee":[[1.1,"DOGE","BNB Smart Chain (BEP20)",2.2],[4,"DOGE","dogecoin",80],[2.17,"DOGE","BNB Beacon Chain (BEP2)",4.34]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/DOGE","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/DOGE"},{"market":"EXMO","url":"https://exmo.com/trade/DOGE_USDT","buyPrice":0.07877849,"buyQty":1603.87,"sellPrice":0.0732975,"sellQty":1079.29,"fee":[[5,"Doge","Doge",30]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/DOGE","depUrl":"https://exmo.com/wallet/deposit/DOGE"}],["AIDOGE/USDT",0.54,{"market":"MEXC","url":"https://www.mexc.com/exchange/AIDOGE_USDT","buyPrice":3.6901e-10,"buyQty":6434562883383,"sellPrice":3.6897e-10,"sellQty":75297778053,"fee":[[2000000000,"AIDOGE","Arbitrum One",10000000000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/AIDOGE","depUrl":"https://www.mexc.com/assets/deposit/AIDOGE"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/AIDOGE-USDT","buyPrice":3.72e-10,"buyQty":24340781797638,"sellPrice":3.71e-10,"sellQty":42022598764,"fee":[[2000000000,"AIDOGE","AIDOGE-Arbitrum one",1000000000]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/aidoge","depUrl":"https://www.okx.com/balance/recharge/aidoge"}],["MOVEZ/USDT",0.48,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/MOVEZ-USDT","buyPrice":0.00188,"buyQty":393,"sellPrice":0.00187,"sellQty":3074,"fee":[[50,"MOVEZ","MOVEZ-BSC",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/movez","depUrl":"https://www.okx.com/balance/recharge/movez"},{"market":"MEXC","url":"https://www.mexc.com/exchange/MOVEZ_USDT","buyPrice":0.001962,"buyQty":15043,"sellPrice":0.001889,"sellQty":13967,"fee":[[100,"MOVEZ","BEP20(BSC)",800]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/MOVEZ","depUrl":"https://www.mexc.com/assets/deposit/MOVEZ"}],["DOME/USDT",0.42,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/DOME-USDT","buyPrice":0.00096,"buyQty":4498520,"sellPrice":0.00095,"sellQty":14251665,"fee":[[100,"DOME","DOME-BSC",10]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/dome","depUrl":"https://www.okx.com/balance/recharge/dome"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/DOME/USDT","buyPrice":0.000969,"buyQty":439648,"sellPrice":0.000964,"sellQty":501,"fee":[[20,"DOME","BSC (BEP20)",20]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["LQTY/USDT",0.41,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/LQTY_USDT?theme=dark&type=spot","buyPrice":1.222,"buyQty":3961.7,"sellPrice":1.221,"sellQty":2333.6,"fee":[[10,"LQTY","Ethereum (ERC20)",20]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LQTY","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LQTY"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/LQTY-USDT","buyPrice":1.228,"buyQty":239.28,"sellPrice":1.227,"sellQty":1.27,"fee":[[2,"LQTY","ERC20",0.1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/lqty","depUrl":"https://www.okx.com/balance/recharge/lqty"}],["WWY/USDT",0.34,{"market":"MEXC","url":"https://www.mexc.com/exchange/WWY_USDT","buyPrice":0.0062,"buyQty":32050,"sellPrice":0.006159,"sellQty":2763,"fee":[[35,"WWY","BEP20(BSC)",100]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/WWY","depUrl":"https://www.mexc.com/assets/deposit/WWY"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/WWY/USDT","buyPrice":0.006251,"buyQty":49180,"sellPrice":0.006221,"sellQty":7870,"fee":[[70,"WWY","BSC (BEP20)",70]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["WXT/USDT",0.32,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/WXT-USDT","buyPrice":0.00309,"buyQty":59129,"sellPrice":0.00308,"sellQty":101,"fee":[[72,"WXT","WXT-Stellar Lumens",1],[1039.5943307,"WXT","ERC20",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/wxt","depUrl":"https://www.okx.com/balance/recharge/wxt"},{"market":"EXMO","url":"https://exmo.com/trade/WXT_USDT","buyPrice":0.00330995,"buyQty":27021,"sellPrice":0.00310001,"sellQty":9148,"fee":[[50,"WXT","WXT",250],[200,"WXT","WXT",500]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/WXT","depUrl":"https://exmo.com/wallet/deposit/WXT"}],["RUNE/USDT",0.32,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/RUNE_USDT?theme=dark&type=spot","buyPrice":1.202,"buyQty":20.9,"sellPrice":1.201,"sellQty":12389.3,"fee":[[0.025,"RUNE","THORChain",0.5]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/RUNE","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/RUNE"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/RUNE/USDT","buyPrice":1.2103,"buyQty":413.69,"sellPrice":1.2059,"sellQty":6.62,"fee":[[0.038,"RUNE","BNB (BEP2)",0.076]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["FITFI/USDT",0.32,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/FITFI/USDT","buyPrice":0.006569,"buyQty":10500,"sellPrice":0.006538,"sellQty":5000,"fee":[[2,"FITFI","AVAXC",2],[1,"FITFI","STEP",10]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/FITFI_USDT","buyPrice":0.006604,"buyQty":6185,"sellPrice":0.00659,"sellQty":703919,"fee":[[6.6,"FITFI","AVAX_CCHAIN",20]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/FITFI","depUrl":"https://www.mexc.com/assets/deposit/FITFI"}],["KASTA/USDT",0.3,{"market":"MEXC","url":"https://www.mexc.com/exchange/KASTA_USDT","buyPrice":0.02007,"buyQty":2286.7,"sellPrice":0.01988,"sellQty":2246.63,"fee":[[2,"KASTA","MATIC",20]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/KASTA","depUrl":"https://www.mexc.com/assets/deposit/KASTA"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/KASTA/USDT","buyPrice":0.02023,"buyQty":519.7,"sellPrice":0.02013,"sellQty":1490.3,"fee":[[0.25,"KASTA","MATIC",1]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["NULS/USDT",0.23,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/NULS_USDT?theme=dark&type=spot","buyPrice":0.2162,"buyQty":933,"sellPrice":0.216,"sellQty":1388,"fee":[[0.32,"NULS","BNB Smart Chain (BEP20)",0.64],[0.01,"NULS","Nuls",0.02]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/NULS","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/NULS"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/NULS-USDT","buyPrice":0.2175,"buyQty":120,"sellPrice":0.2167,"sellQty":43.18,"fee":[[0.008,"NULS","NULS-NULS",4]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/nuls","depUrl":"https://www.okx.com/balance/recharge/nuls"}],["GNS/USDT",0.23,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/GNS_USDT?theme=dark&type=spot","buyPrice":4.958,"buyQty":5.03,"sellPrice":4.953,"sellQty":73.36,"fee":[[0.3,"GNS","Arbitrum One",1],[0.036,"GNS","Polygon",0.072]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/GNS","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/GNS"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/GNS/USDT","buyPrice":4.9773,"buyQty":5.6,"sellPrice":4.9696,"sellQty":2.92,"fee":[[0.3,"GNS","MATIC",0.3],[0.3,"GNS","Arbitrum One",0.3]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["LEVER/USDT",0.21,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/LEVER_USDT?theme=dark&type=spot","buyPrice":0.001437,"buyQty":953537,"sellPrice":0.001436,"sellQty":790027,"fee":[[8945,"LEVER","Ethereum (ERC20)",17890]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LEVER","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LEVER"},{"market":"MEXC","url":"https://www.mexc.com/exchange/LEVER_USDT","buyPrice":0.001442,"buyQty":481643,"sellPrice":0.00144,"sellQty":120000,"fee":[[2651,"LEVER","ERC20",3000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/LEVER","depUrl":"https://www.mexc.com/assets/deposit/LEVER"}],["LUNC/USDT",0.21,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/LUNC-USDT","buyPrice":0.00008521,"buyQty":2147650,"sellPrice":0.00008519,"sellQty":1332652,"fee":[[1000,"LUNC","LUNC-Terra Classic",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/lunc","depUrl":"https://www.okx.com/balance/recharge/lunc"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/LUNC_USDT?theme=dark&type=spot","buyPrice":0.00008542,"buyQty":12035360,"sellPrice":0.00008539,"sellQty":2520208,"fee":[[22.66,"LUNC","Terra Classic",30000]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LUNC","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LUNC"}],["GEAR/USDT",0.21,{"market":"MEXC","url":"https://www.mexc.com/exchange/GEAR_USDT","buyPrice":0.006985,"buyQty":4845,"sellPrice":0.006807,"sellQty":1089,"fee":[[2961,"GEAR","ERC20",150]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/GEAR","depUrl":"https://www.mexc.com/assets/deposit/GEAR"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/GEAR-USDT","buyPrice":0.00702,"buyQty":10176,"sellPrice":0.007,"sellQty":35988,"fee":[[5021.5858989,"GEAR","ERC20",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/gear","depUrl":"https://www.okx.com/balance/recharge/gear"}],["TON/USDT",0.2,{"market":"EXMO","url":"https://exmo.com/trade/TON_USDT","buyPrice":1.955,"buyQty":5.2,"sellPrice":1.949999,"sellQty":2.47,"fee":[[0.1,"TON","TON",15]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/TON","depUrl":"https://exmo.com/wallet/deposit/TON"},{"market":"MEXC","url":"https://www.mexc.com/exchange/TON_USDT","buyPrice":1.96,"buyQty":1821.83,"sellPrice":1.959,"sellQty":1687.18,"fee":[[0.02,"TON","TONCOIN",1],[0.47,"TON","BEP20(BSC)",1],[3,"TON","ERC20",6]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/TON","depUrl":"https://www.mexc.com/assets/deposit/TON"}],["RIO/USDT",0.19,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/RIO-USDT","buyPrice":0.1544,"buyQty":8193.8,"sellPrice":0.1534,"sellQty":2.66,"fee":[[0.1,"RIO","RIO-Stellar Lumens",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/rio","depUrl":"https://www.okx.com/balance/recharge/rio"},{"market":"MEXC","url":"https://www.mexc.com/exchange/RIO_USDT","buyPrice":0.156,"buyQty":706.22,"sellPrice":0.1547,"sellQty":1841.89,"fee":[[3,"RIO","ALGO",10]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/RIO","depUrl":"https://www.mexc.com/assets/deposit/RIO"}],["ZAM/USDT",0.18,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/ZAM/USDT","buyPrice":0.004519,"buyQty":2634,"sellPrice":0.004514,"sellQty":9490,"fee":[[400,"ZAM","ERC20",400],[6,"ZAM","BSC (BEP20)",6]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/ZAM_USDT","buyPrice":0.004543,"buyQty":4384,"sellPrice":0.004527,"sellQty":8062,"fee":[[828,"ZAM","ERC20",90],[146,"ZAM","BEP20(BSC)",4]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/ZAM","depUrl":"https://www.mexc.com/assets/deposit/ZAM"}],["STRM/USDT",0.18,{"market":"MEXC","url":"https://www.mexc.com/exchange/STRM_USDT","buyPrice":0.01235,"buyQty":1000,"sellPrice":0.01222,"sellQty":16765.83,"fee":[[13,"STRM","BEP20(BSC)",2]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/STRM","depUrl":"https://www.mexc.com/assets/deposit/STRM"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/STRM/USDT","buyPrice":0.012492,"buyQty":1088.67,"sellPrice":0.012372,"sellQty":2020,"fee":[[2,"STRM","BSC (BEP20)",2]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["NFT/USDT",0.17,{"market":"MEXC","url":"https://www.mexc.com/exchange/NFT_USDT","buyPrice":3.625e-7,"buyQty":34342270,"sellPrice":3.623e-7,"sellQty":77209870,"fee":[[820000,"NFT","TRC20",1000000],[1,"NFT","NONE",2]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/NFT","depUrl":"https://www.mexc.com/assets/deposit/NFT"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/NFT-USDT","buyPrice":3.633e-7,"buyQty":149559469,"sellPrice":3.631e-7,"sellQty":189788306,"fee":[[80000,"NFT","NFT-TRC20",0.01]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/nft","depUrl":"https://www.okx.com/balance/recharge/nft"}],["SOLO/USDT",0.17,{"market":"MEXC","url":"https://www.mexc.com/exchange/SOLO_USDT","buyPrice":0.1197,"buyQty":198.28,"sellPrice":0.1193,"sellQty":361.16,"fee":[[2,"SOLO","XRP",4]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/SOLO","depUrl":"https://www.mexc.com/assets/deposit/SOLO"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/SOLO/USDT","buyPrice":0.1201,"buyQty":1249.04,"sellPrice":0.1199,"sellQty":1227.08,"fee":[[0.3,"SOLO","XRP",0.6]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["CMP/USDT",0.16,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/CMP/USDT","buyPrice":0.03804,"buyQty":1346.59,"sellPrice":0.03774,"sellQty":592.14,"fee":[[1,"CMP","Caduceus",1]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/CMP_USDT","buyPrice":0.0389,"buyQty":224.46,"sellPrice":0.0381,"sellQty":262.46,"fee":[[1,"CMP","CMP",10]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/CMP","depUrl":"https://www.mexc.com/assets/deposit/CMP"}],["WNCG/USDT",0.16,{"market":"MEXC","url":"https://www.mexc.com/exchange/WNCG_USDT","buyPrice":0.08207,"buyQty":261,"sellPrice":0.08195,"sellQty":1527.68,"fee":[[127,"WNCG","ERC20",30]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/WNCG","depUrl":"https://www.mexc.com/assets/deposit/WNCG"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/WNCG-USDT","buyPrice":0.0823,"buyQty":589.86,"sellPrice":0.0822,"sellQty":2448.76,"fee":[[431.55012241,"WNCG","ERC20",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/wncg","depUrl":"https://www.okx.com/balance/recharge/wncg"}],["VINU/USDT",0.16,{"market":"MEXC","url":"https://www.mexc.com/exchange/VINU_USDT","buyPrice":1.1162e-8,"buyQty":9867328602,"sellPrice":1.1103e-8,"sellQty":1062603534,"fee":[[54170418,"VINU","BEP20(BSC)",80000000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/VINU","depUrl":"https://www.mexc.com/assets/deposit/VINU"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/VINU/USDT","buyPrice":1.125e-8,"buyQty":1153434199,"sellPrice":1.118e-8,"sellQty":75056919,"fee":[[10000000,"VINU","BSC (BEP20)",10000000]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["CRO/USDT",0.15,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/CRO-USDT","buyPrice":0.0658,"buyQty":19971.27,"sellPrice":0.0657,"sellQty":4926.25,"fee":[[0.03,"CRO","CRO-Crypto",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/cro","depUrl":"https://www.okx.com/balance/recharge/cro"},{"market":"MEXC","url":"https://www.mexc.com/exchange/CRO_USDT","buyPrice":0.06593,"buyQty":139.37,"sellPrice":0.0659,"sellQty":432.83,"fee":[[307,"CRO","ERC20",24],[1,"CRO","CRO",2],[1,"CRO","CRONOS",2]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/CRO","depUrl":"https://www.mexc.com/assets/deposit/CRO"}],["KSM/USDT",0.14,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/KSM/USDT","buyPrice":25.5929,"buyQty":9,"sellPrice":25.5714,"sellQty":9,"fee":[[0.21,"KSM","KSM",0.21]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/KSM_USDT?theme=dark&type=spot","buyPrice":25.64,"buyQty":5.038,"sellPrice":25.63,"sellQty":9.518,"fee":[[0.0023,"KSM","BNB Smart Chain (BEP20)",0.0046],[0.01,"KSM","Kusama",1.01]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/KSM","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/KSM"}],["XNO/USDT",0.14,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/XNO_USDT?theme=dark&type=spot","buyPrice":0.726,"buyQty":522.46,"sellPrice":0.725,"sellQty":306.18,"fee":[[0.032,"XNO","NANO",0.064]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/XNO","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/XNO"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/XNO-USDT","buyPrice":0.729,"buyQty":1278.07,"sellPrice":0.727,"sellQty":66.54,"fee":[[0.1,"XNO","XNO-Nano",0.001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/xno","depUrl":"https://www.okx.com/balance/recharge/xno"}],["SUI/USDT",0.13,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/SUI-USDT","buyPrice":1.1315,"buyQty":884.7,"sellPrice":1.1309,"sellQty":818.75,"fee":[[0.02,"SUI","SUI-SUI",0.1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/sui","depUrl":"https://www.okx.com/balance/recharge/sui"},{"market":"MEXC","url":"https://www.mexc.com/exchange/SUI_USDT","buyPrice":1.1331,"buyQty":1978.76,"sellPrice":1.133,"sellQty":17.38,"fee":[[0.1,"SUI","SUI",5]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/SUI","depUrl":"https://www.mexc.com/assets/deposit/SUI"}],["ONE/USDT",0.13,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/ONE_USDT?theme=dark&type=spot","buyPrice":0.0159,"buyQty":86522.2,"sellPrice":0.01589,"sellQty":75202.5,"fee":[[0.1,"ONE","Harmony",60],[0,"ONE","BNB Beacon Chain (BEP2)",8]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ONE","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ONE"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/ONE-USDT","buyPrice":0.01595,"buyQty":903.29,"sellPrice":0.01592,"sellQty":256.9,"fee":[[0,"ONE","ONE-Harmony",0.0001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/one","depUrl":"https://www.okx.com/balance/recharge/one"}],["AGLD/USDT",0.11,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/AGLD-USDT","buyPrice":0.3614,"buyQty":57.07,"sellPrice":0.3611,"sellQty":151.59,"fee":[[27.2,"AGLD","ERC20",0.01]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/agld","depUrl":"https://www.okx.com/balance/recharge/agld"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/AGLD/USDT","buyPrice":0.3619,"buyQty":529.4,"sellPrice":0.3618,"sellQty":6.91,"fee":[[6.76,"AGLD","ERC20",13]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["MLN/USDT",0.1,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/MLN_USDT?theme=dark&type=spot","buyPrice":19.88,"buyQty":48.069,"sellPrice":19.85,"sellQty":50,"fee":[[0.01,"MLN","Ethereum (ERC20)",0.02]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/MLN","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/MLN"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/MLN-USDT","buyPrice":20,"buyQty":59.65,"sellPrice":19.9,"sellQty":179.66,"fee":[[0.48358502,"MLN","ERC20",0.1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/mln","depUrl":"https://www.okx.com/balance/recharge/mln"}],["BETH/USDT",0.1,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/BETH_USDT?theme=dark&type=spot","buyPrice":1838.14,"buyQty":0.0287,"sellPrice":1836.97,"sellQty":0.0142,"fee":[[0.000057,"BETH","BNB Smart Chain (BEP20)",0.00011]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/BETH","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/BETH"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/BETH-USDT","buyPrice":1841.86,"buyQty":0.03258,"sellPrice":1840,"sellQty":0.00231,"fee":[[0,"BETH","ERC20",0]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/beth","depUrl":"https://www.okx.com/balance/recharge/beth"}],["KP3R/USDT",0.09,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/KP3R_USDT?theme=dark&type=spot","buyPrice":65.16,"buyQty":0.73,"sellPrice":65.07,"sellQty":1.58,"fee":[[0.2,"KP3R","Ethereum (ERC20)",0.4]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/KP3R","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/KP3R"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/KP3R-USDT","buyPrice":65.23,"buyQty":3.016,"sellPrice":65.22,"sellQty":0.028,"fee":[[0.16,"KP3R","ERC20",0.01]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/kp3r","depUrl":"https://www.okx.com/balance/recharge/kp3r"}],["USTC/USDT",0.09,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/USTC_USDT?theme=dark&type=spot","buyPrice":0.01508704,"buyQty":4555,"sellPrice":0.01506104,"sellQty":30388,"fee":[[0.6,"USTC","Terra Classic",200]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/USTC","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/USTC"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/USTC-USDT","buyPrice":0.01513,"buyQty":45303.7,"sellPrice":0.0151,"sellQty":224.55,"fee":[[10,"USTC","USTC-Terra Classic",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/ustc","depUrl":"https://www.okx.com/balance/recharge/ustc"}],["EURT/USDT",0.09,{"market":"MEXC","url":"https://www.mexc.com/exchange/EURT_USDT","buyPrice":1.093,"buyQty":9.1,"sellPrice":1.0922,"sellQty":15.87,"fee":[[1,"EURT","ERC20",10]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/EURT","depUrl":"https://www.mexc.com/assets/deposit/EURT"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/EURT-USDT","buyPrice":1.0963,"buyQty":4500,"sellPrice":1.094,"sellQty":35.53,"fee":[[5,"EURT","ERC20",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/eurt","depUrl":"https://www.okx.com/balance/recharge/eurt"}],["COMP/USDT",0.08,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/COMP/USDT","buyPrice":36.29,"buyQty":0.853,"sellPrice":36.28,"sellQty":1.262,"fee":[[0.068,"COMP","ERC20",0.14]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/COMP_USDT?theme=dark&type=spot","buyPrice":36.33,"buyQty":41.758,"sellPrice":36.32,"sellQty":6.71,"fee":[[0.0018,"COMP","BNB Smart Chain (BEP20)",0.0036],[0.0043,"COMP","BNB Beacon Chain (BEP2)",0.0086],[0.35,"COMP","Ethereum (ERC20)",0.7]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/COMP","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/COMP"}],["USDD/USDT",0.07,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/USDD/USDT","buyPrice":0.9977,"buyQty":99.62,"sellPrice":0.9951,"sellQty":0.95,"fee":[[30,"USDD","ERC20",30],[2.6,"USDD","TRC20",2.6]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/USDD_USDT","buyPrice":0.9991,"buyQty":10.83,"sellPrice":0.9984,"sellQty":11.77,"fee":[[5,"USDD","ERC20",10],[1,"USDD","BEP20(BSC)",2],[1,"USDD","TRC20",3]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/USDD","depUrl":"https://www.mexc.com/assets/deposit/USDD"}],["BTT/USDT",0.07,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/BTT/USDT","buyPrice":6.015e-7,"buyQty":93008803,"sellPrice":5.987e-7,"sellQty":75166040,"fee":[[3000000,"BTT","TRC20",3000000]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/BTT_USDT","buyPrice":6.031e-7,"buyQty":171382125,"sellPrice":6.019e-7,"sellQty":303656795,"fee":[[500000,"BTT","TRC20",520000],[521285,"BTT","BEP20(BSC)",400000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/BTT","depUrl":"https://www.mexc.com/assets/deposit/BTT"}],["ETH/USDT",0.06,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/ETH-USDT","buyPrice":1841.8,"buyQty":2.09351,"sellPrice":1841.79,"sellQty":1.16733,"fee":[[0.0028,"ETH","ERC20",0.01],[0,"ETH","ETHK-OKTC",0.001],[0.0001,"ETH","ETH-Arbitrum one",0.001],[0.0002,"ETH","ETH-zkSync Lite",0.001],[0.0005,"ETH","ETH-Optimism",0.0001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/eth","depUrl":"https://www.okx.com/balance/recharge/eth"},{"market":"EXMO","url":"https://exmo.com/trade/ETH_USDT","buyPrice":1842.8635,"buyQty":0.08427,"sellPrice":1842.8634,"sellQty":0,"fee":[[0.0006,"ETH","ETH",0.0012]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/ETH","depUrl":"https://exmo.com/wallet/deposit/ETH"}],["AVAX/USDT",0.06,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/AVAX/USDT","buyPrice":15.4211,"buyQty":28,"sellPrice":15.4189,"sellQty":28,"fee":[[0.01,"AVAX","AVAX",0.11],[0.02,"AVAX","AVAXC",0.02]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/AVAX_USDT?theme=dark&type=spot","buyPrice":15.44,"buyQty":2058.47,"sellPrice":15.43,"sellQty":1275.48,"fee":[[0.0051,"AVAX","BNB Smart Chain (BEP20)",0.01],[0.008,"AVAX","Avalanche",0.1],[0.008,"AVAX","AVAX C-Chain",0.1]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/AVAX","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/AVAX"}],["ICP/USDT",0.06,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/ICP/USDT","buyPrice":5.2177,"buyQty":43.53,"sellPrice":5.2138,"sellQty":257.32,"fee":[[0.006,"ICP","ICP",0.006]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/ICP_USDT?theme=dark&type=spot","buyPrice":5.222,"buyQty":112.69,"sellPrice":5.221,"sellQty":8.8,"fee":[[0.0003,"ICP","Internet Computer",0.001]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ICP","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ICP"}],["UFT/USDT",0.06,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/UFT_USDT?theme=dark&type=spot","buyPrice":0.3567,"buyQty":47,"sellPrice":0.3562,"sellQty":582,"fee":[[0.22,"UFT","BNB Smart Chain (BEP20)",0.44],[36,"UFT","Ethereum (ERC20)",72]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/UFT","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/UFT"},{"market":"MEXC","url":"https://www.mexc.com/exchange/UFT_USDT","buyPrice":0.3581,"buyQty":60.76,"sellPrice":0.3569,"sellQty":436.45,"fee":[[5,"UFT","ERC20",10]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/UFT","depUrl":"https://www.mexc.com/assets/deposit/UFT"}],["SIS/USDT",0.06,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/SIS/USDT","buyPrice":0.155,"buyQty":4161.29,"sellPrice":0.1549,"sellQty":63.81,"fee":[[8.75,"SIS","ERC20",17.5]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/SIS-USDT","buyPrice":0.1559,"buyQty":1.85,"sellPrice":0.1551,"sellQty":3238.77,"fee":[[39.75875611,"SIS","ERC20",0.001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/sis","depUrl":"https://www.okx.com/balance/recharge/sis"}],["ZRX/USDT",0.05,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/ZRX-USDT","buyPrice":0.2185,"buyQty":448.06,"sellPrice":0.2184,"sellQty":73,"fee":[[47.2,"ZRX","ERC20",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/zrx","depUrl":"https://www.okx.com/balance/recharge/zrx"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/ZRX_USDT?theme=dark&type=spot","buyPrice":0.2187,"buyQty":1679,"sellPrice":0.2186,"sellQty":1012,"fee":[[59,"ZRX","Ethereum (ERC20)",118]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ZRX","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ZRX"}],["UMA/USDT",0.05,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/UMA/USDT","buyPrice":2.9516,"buyQty":169.73,"sellPrice":2.9414,"sellQty":53.51,"fee":[[2.61,"UMA","ERC20",5.22]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/UMA_USDT?theme=dark&type=spot","buyPrice":2.955,"buyQty":27.2,"sellPrice":2.953,"sellQty":91.3,"fee":[[4.81,"UMA","Ethereum (ERC20)",9.62]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/UMA","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/UMA"}],["GRT/USDT",0.05,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/GRT/USDT","buyPrice":0.11574,"buyQty":2150,"sellPrice":0.11564,"sellQty":1438.13,"fee":[[29,"GRT","ERC20",29]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/GRT_USDT?theme=dark&type=spot","buyPrice":0.1159,"buyQty":120436,"sellPrice":0.1158,"sellQty":5975,"fee":[[5,"GRT","Arbitrum One",10],[110,"GRT","Ethereum (ERC20)",220],[1.54,"GRT","Polygon",3.08]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/GRT","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/GRT"}],["WBTC/USDT",0.05,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/WBTC/USDT","buyPrice":27614.86,"buyQty":0.002208,"sellPrice":27507.9,"sellQty":0.001869,"fee":[[0.0006,"WBTC","ERC20",0.0006]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/WBTC_USDT","buyPrice":27630.3,"buyQty":0.0007,"sellPrice":27628.1,"sellQty":0.0006,"fee":[[0.00025457,"WBTC","ERC20",0.0006]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/WBTC","depUrl":"https://www.mexc.com/assets/deposit/WBTC"}],["XRP/USDT",0.04,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/XRP-USDT","buyPrice":0.42485,"buyQty":103.59,"sellPrice":0.42484,"sellQty":1796.36,"fee":[[0.2,"XRP","XRP-Ripple",21],[0,"XRP","XRPK-OKTC",0.1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/xrp","depUrl":"https://www.okx.com/balance/recharge/xrp"},{"market":"EXMO","url":"https://exmo.com/trade/XRP_USDT","buyPrice":0.42514,"buyQty":3942.24,"sellPrice":0.425,"sellQty":150.32,"fee":[[0.25,"XRP","XRP",20]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/XRP","depUrl":"https://exmo.com/wallet/deposit/XRP"}],["BNB/USDT",0.04,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/BNB/USDT","buyPrice":313.8732,"buyQty":0.87,"sellPrice":313.863,"sellQty":1.45,"fee":[[0.0005,"BNB","BSC (BEP20)",0.015]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/BNB-USDT","buyPrice":314.01,"buyQty":0.5939,"sellPrice":314,"sellQty":0,"fee":[[0.001,"BNB","BNB-BSC",0.00001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/bnb","depUrl":"https://www.okx.com/balance/recharge/bnb"}],["ZIL/USDT",0.04,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/ZIL/USDT","buyPrice":0.02395,"buyQty":20870.4,"sellPrice":0.02391,"sellQty":215212.8,"fee":[[0.2,"ZIL","ZIL",0.4]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/ZIL_USDT?theme=dark&type=spot","buyPrice":0.02397,"buyQty":200439,"sellPrice":0.02396,"sellQty":1045.9,"fee":[[2.84,"ZIL","BNB Smart Chain (BEP20)",5.68],[0.2,"ZIL","Zilliqa",0.4]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ZIL","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ZIL"}],["AVA/USDT",0.04,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/AVA_USDT?theme=dark&type=spot","buyPrice":0.553,"buyQty":7579.3,"sellPrice":0.552,"sellQty":6881.2,"fee":[[0.12,"AVA","BNB Smart Chain (BEP20)",0.24],[0.29,"AVA","BNB Beacon Chain (BEP2)",0.58],[24,"AVA","Ethereum (ERC20)",48]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/AVA","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/AVA"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/AVA/USDT","buyPrice":0.5546,"buyQty":123.69,"sellPrice":0.5532,"sellQty":214.22,"fee":[[10,"AVA","ERC20",10]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["XEC/USDT",0.04,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/XEC/USDT","buyPrice":0.00002709,"buyQty":2900285,"sellPrice":0.00002704,"sellQty":145692952,"fee":[[1000,"XEC","XEC",1000]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/XEC_USDT?theme=dark&type=spot","buyPrice":0.00002712,"buyQty":5573088,"sellPrice":0.0000271,"sellQty":1660913,"fee":[[2617,"XEC","BNB Smart Chain (BEP20)",5234],[1000,"XEC","eCash",20000]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/XEC","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/XEC"}],["ACH/USDT",0.04,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/ACH_USDT?theme=dark&type=spot","buyPrice":0.02345,"buyQty":13831,"sellPrice":0.02344,"sellQty":66965,"fee":[[2.3,"ACH","BNB Smart Chain (BEP20)",4.6],[543,"ACH","Ethereum (ERC20)",1086]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ACH","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ACH"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/ACH-USDT","buyPrice":0.02349,"buyQty":21274.99,"sellPrice":0.02346,"sellQty":178.45,"fee":[[488.7,"ACH","ERC20",10]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/ach","depUrl":"https://www.okx.com/balance/recharge/ach"}],["DAI/USDT",0.04,{"market":"MEXC","url":"https://www.mexc.com/exchange/DAI_USDT","buyPrice":0.999,"buyQty":585.97,"sellPrice":0.9988,"sellQty":47230.37,"fee":[[15,"DAI","ERC20",20]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/DAI","depUrl":"https://www.mexc.com/assets/deposit/DAI"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/DAI-USDT","buyPrice":0.9995,"buyQty":2567.44,"sellPrice":0.9994,"sellQty":2838.88,"fee":[[6.86747868,"DAI","ERC20",1],[0,"DAI","DAIK-OKTC",1],[0.1,"DAI","DAI-Polygon",0.0001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/dai","depUrl":"https://www.okx.com/balance/recharge/dai"}],["BONE/USDT",0.04,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/BONE-USDT","buyPrice":0.8035,"buyQty":3,"sellPrice":0.8004,"sellQty":24.38,"fee":[[10,"BONE","ERC20",0.5]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/bone","depUrl":"https://www.okx.com/balance/recharge/bone"},{"market":"MEXC","url":"https://www.mexc.com/exchange/BONE_USDT","buyPrice":0.8039,"buyQty":612.87,"sellPrice":0.8038,"sellQty":1121.75,"fee":[[21,"BONE","ERC20",10]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/BONE","depUrl":"https://www.mexc.com/assets/deposit/BONE"}],["CBX/USDT",0.04,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/CBX/USDT","buyPrice":0.02674,"buyQty":462.04,"sellPrice":0.02651,"sellQty":1584.44,"fee":[[18,"CBX","ERC20",36]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/CBX_USDT","buyPrice":0.02678,"buyQty":1389.19,"sellPrice":0.02675,"sellQty":510.4,"fee":[[298,"CBX","ERC20",50]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/CBX","depUrl":"https://www.mexc.com/assets/deposit/CBX"}],["YFI/USDT",0.03,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/YFI/USDT","buyPrice":7348.92,"buyQty":0.01773,"sellPrice":7348.58,"sellQty":0.0315,"fee":[[0.00082,"YFI","ERC20",0.0016]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/YFI_USDT?theme=dark&type=spot","buyPrice":7353,"buyQty":0.53722,"sellPrice":7351,"sellQty":0.02862,"fee":[[0.0000098,"YFI","BNB Smart Chain (BEP20)",0.00002],[0.000022,"YFI","BNB Beacon Chain (BEP2)",0.000044],[0.0018,"YFI","Ethereum (ERC20)",0.0036]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/YFI","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/YFI"}],["TRX/USDT",0.03,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/TRX/USDT","buyPrice":0.06895,"buyQty":23112.94,"sellPrice":0.06894,"sellQty":20037.12,"fee":[[1,"TRX","TRC20",15]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/TRX-USDT","buyPrice":0.06898,"buyQty":9891.62,"sellPrice":0.06897,"sellQty":10579.55,"fee":[[0.8,"TRX","TRX-TRC20",20],[0,"TRX","TRXK-OKTC",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/trx","depUrl":"https://www.okx.com/balance/recharge/trx"}],["LUNA/USDT",0.03,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/LUNA_USDT?theme=dark&type=spot","buyPrice":0.9638,"buyQty":300.41,"sellPrice":0.9635,"sellQty":163.83,"fee":[[0.01,"LUNA","Terra",10]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LUNA","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LUNA"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/LUNA-USDT","buyPrice":0.9644,"buyQty":112.82,"sellPrice":0.9641,"sellQty":313.3,"fee":[[0.05,"LUNA","LUNA-Terra",0.01]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/luna","depUrl":"https://www.okx.com/balance/recharge/luna"}],["CVP/USDT",0.03,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/CVP_USDT?theme=dark&type=spot","buyPrice":0.3841,"buyQty":262.7,"sellPrice":0.3833,"sellQty":203.6,"fee":[[0.17,"CVP","BNB Smart Chain (BEP20)",0.34],[35,"CVP","Ethereum (ERC20)",70]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/CVP","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/CVP"},{"market":"MEXC","url":"https://www.mexc.com/exchange/CVP_USDT","buyPrice":0.3844,"buyQty":199.53,"sellPrice":0.3842,"sellQty":14.41,"fee":[[32,"CVP","ERC20",3]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/CVP","depUrl":"https://www.mexc.com/assets/deposit/CVP"}],["RNDR/USDT",0.03,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/RNDR/USDT","buyPrice":1.7595,"buyQty":115,"sellPrice":1.7582,"sellQty":115,"fee":[[4,"RNDR","ERC20",8]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/RNDR_USDT?theme=dark&type=spot","buyPrice":1.761,"buyQty":5157.08,"sellPrice":1.76,"sellQty":962.55,"fee":[[7,"RNDR","Ethereum (ERC20)",14]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/RNDR","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/RNDR"}],["SPELL/USDT",0.03,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/SPELL/USDT","buyPrice":0.00059353,"buyQty":171067,"sellPrice":0.00059285,"sellQty":356201,"fee":[[812,"SPELL","ERC20",1624]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/SPELL_USDT?theme=dark&type=spot","buyPrice":0.0005938,"buyQty":909708,"sellPrice":0.0005937,"sellQty":187576,"fee":[[50,"SPELL","AVAX C-Chain",100],[21680,"SPELL","Ethereum (ERC20)",43360]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/SPELL","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/SPELL"}],["RDNT/USDT",0.03,{"market":"MEXC","url":"https://www.mexc.com/exchange/RDNT_USDT","buyPrice":0.3295,"buyQty":250,"sellPrice":0.3271,"sellQty":20,"fee":[[2,"RDNT","Arbitrum One",4]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/RDNT","depUrl":"https://www.mexc.com/assets/deposit/RDNT"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/RDNT_USDT?theme=dark&type=spot","buyPrice":0.3297,"buyQty":95,"sellPrice":0.3296,"sellQty":6713,"fee":[[0.17,"RDNT","BNB Smart Chain (BEP20)",0.34],[0.3,"RDNT","Arbitrum One",1]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/RDNT","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/RDNT"}],["XTZ/USDT",0.02,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/XTZ/USDT","buyPrice":0.9139,"buyQty":28.54,"sellPrice":0.9119,"sellQty":564.47,"fee":[[1,"XTZ","XTZ",1]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/XTZ_USDT","buyPrice":0.91525,"buyQty":10,"sellPrice":0.91408,"sellQty":145.43,"fee":[[0.1,"XTZ","XTZ",6]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/XTZ","depUrl":"https://www.mexc.com/assets/deposit/XTZ"}],["AAVE/USDT",0.02,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/AAVE/USDT","buyPrice":64.447,"buyQty":3.6,"sellPrice":64.4378,"sellQty":3.6,"fee":[[0.32,"AAVE","ERC20",0.32]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/AAVE-USDT","buyPrice":64.47,"buyQty":0.891,"sellPrice":64.46,"sellQty":1.607,"fee":[[0.54586847,"AAVE","ERC20",0.01]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/aave","depUrl":"https://www.okx.com/balance/recharge/aave"}],["AR/USDT",0.02,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/AR/USDT","buyPrice":6.5389,"buyQty":5.26,"sellPrice":6.5342,"sellQty":76.41,"fee":[[0.5,"AR","AR",0.5]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"MEXC","url":"https://www.mexc.com/exchange/AR_USDT","buyPrice":6.548,"buyQty":31.58,"sellPrice":6.54,"sellQty":987.14,"fee":[[0.15,"AR","AR",0.3]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/AR","depUrl":"https://www.mexc.com/assets/deposit/AR"}],["PHA/USDT",0.02,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/PHA_USDT?theme=dark&type=spot","buyPrice":0.1202,"buyQty":550,"sellPrice":0.1201,"sellQty":2595,"fee":[[0.54,"PHA","BNB Smart Chain (BEP20)",1.08],[16,"PHA","Ethereum (ERC20)",32]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/PHA","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/PHA"},{"market":"MEXC","url":"https://www.mexc.com/exchange/PHA_USDT","buyPrice":0.120321,"buyQty":539,"sellPrice":0.120227,"sellQty":18756.08,"fee":[[48,"PHA","ERC20",60],[1,"PHA","Khala",10]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/PHA","depUrl":"https://www.mexc.com/assets/deposit/PHA"}],["APE/USDT",0.02,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/APE_USDT?theme=dark&type=spot","buyPrice":3.326,"buyQty":937.49,"sellPrice":3.325,"sellQty":992.07,"fee":[[0.018,"APE","BNB Smart Chain (BEP20)",0.036],[3.84,"APE","Ethereum (ERC20)",7.68]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/APE","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/APE"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/APE-USDT","buyPrice":3.3269,"buyQty":75.1,"sellPrice":3.3265,"sellQty":75.35,"fee":[[3.456,"APE","ERC20",0.001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/ape","depUrl":"https://www.okx.com/balance/recharge/ape"}],["GMX/USDT",0.02,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/GMX/USDT","buyPrice":62.709,"buyQty":3.6,"sellPrice":62.685,"sellQty":7.2,"fee":[[0.005,"GMX","ARBI",0.005],[0.01,"GMX","AVAXC",0.01]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/GMX_USDT?theme=dark&type=spot","buyPrice":62.73,"buyQty":5.188,"sellPrice":62.72,"sellQty":15.83,"fee":[[0.02,"GMX","AVAX C-Chain",0.1],[0.006,"GMX","Arbitrum One",0.1]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/GMX","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/GMX"}],["PEPE/USDT",0.02,{"market":"MEXC","url":"https://www.mexc.com/exchange/PEPE_USDT","buyPrice":0.0000019545,"buyQty":16325894,"sellPrice":0.0000019529,"sellQty":25030147,"fee":[[10595572,"PEPE","ERC20",20000000]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/PEPE","depUrl":"https://www.mexc.com/assets/deposit/PEPE"},{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/PEPE-USDT","buyPrice":0.000001955,"buyQty":45391100,"sellPrice":0.0000019549,"sellQty":25540966,"fee":[[5708155.2,"PEPE","ERC20",100000]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/pepe","depUrl":"https://www.okx.com/balance/recharge/pepe"}],["FLOKI/USDT",0.02,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/FLOKI-USDT","buyPrice":0.000034982,"buyQty":172261,"sellPrice":0.00003497,"sellQty":4574821,"fee":[[10000,"FLOKI","FLOKI-BSC",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/floki","depUrl":"https://www.okx.com/balance/recharge/floki"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/FLOKI_USDT?theme=dark&type=spot","buyPrice":0.000035,"buyQty":64222892,"sellPrice":0.00003499,"sellQty":141185,"fee":[[2617,"FLOKI","BNB Smart Chain (BEP20)",5234],[369417,"FLOKI","Ethereum (ERC20)",738834]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/FLOKI","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/FLOKI"}],["VELODROME/USDT",0.02,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/VELODROME-USDT","buyPrice":0.1075,"buyQty":57,"sellPrice":0.1066,"sellQty":51.08,"fee":[[1,"VELODROME","VELODROME-Optimism",1]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/velodrome","depUrl":"https://www.okx.com/balance/recharge/velodrome"},{"market":"MEXC","url":"https://www.mexc.com/exchange/VELODROME_USDT","buyPrice":0.10859,"buyQty":619.63,"sellPrice":0.10752,"sellQty":2071.58,"fee":[[6,"VELODROME","OP",12]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/VELODROME","depUrl":"https://www.mexc.com/assets/deposit/VELODROME"}],["CSPR/USDT",0.02,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/CSPR-USDT","buyPrice":0.05227,"buyQty":2656.66,"sellPrice":0.0522,"sellQty":101.18,"fee":[[4,"CSPR","CSPR-Casper",3]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/cspr","depUrl":"https://www.okx.com/balance/recharge/cspr"},{"market":"MEXC","url":"https://www.mexc.com/exchange/CSPR_USDT","buyPrice":0.05231,"buyQty":257673.15,"sellPrice":0.05228,"sellQty":1777.72,"fee":[[0.001,"CSPR","CSPR",3]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/CSPR","depUrl":"https://www.mexc.com/assets/deposit/CSPR"}],["BCH/USDT",0.01,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/BCH-USDT","buyPrice":120.68,"buyQty":3.5795,"sellPrice":120.67,"sellQty":0.2312,"fee":[[0.000512,"BCH","BCH-BitcoinCash",0.01],[0,"BCH","BCHK-OKTC",0.0001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/bch","depUrl":"https://www.okx.com/balance/recharge/bch"},{"market":"EXMO","url":"https://exmo.com/trade/BCH_USDT","buyPrice":120.799,"buyQty":1,"sellPrice":120.69,"sellQty":0.372,"fee":[[0.001,"BCH","BCH",0.01]],"withdrlUrl":"https://exmo.com/wallet/withdrawal/BCH","depUrl":"https://exmo.com/wallet/deposit/BCH"}],["BTC/USDT",0.01,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/BTC-USDT","buyPrice":27618.6,"buyQty":1.44864,"sellPrice":27618.5,"sellQty":0.001966,"fee":[[0.0009,"BTC","BTC-Bitcoin",0.001],[0,"BTC","BTC-Lightning",0.000001],[0,"BTC","BTCK-OKTC",0.0001]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/btc","depUrl":"https://www.okx.com/balance/recharge/btc"},{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/BTC/USDT","buyPrice":27620.4,"buyQty":2.49433,"sellPrice":27620.39,"sellQty":0.520943,"fee":[[0.0005,"BTC","BTC",0.0005]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"}],["XMR/USDT",0.01,{"market":"OKX","url":"https://www.okx.com/ua/trade-spot/XMR-USDT","buyPrice":153.08,"buyQty":4.7877,"sellPrice":153.05,"sellQty":1.7055,"fee":[[0,"XMR","XMR-Monero",0]],"withdrlUrl":"https://www.okx.com/ua/balance/withdrawal/xmr","depUrl":"https://www.okx.com/balance/recharge/xmr"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/XMR_USDT?theme=dark&type=spot","buyPrice":153.2,"buyQty":10.068,"sellPrice":153.1,"sellQty":189.576,"fee":[[0.0001,"XMR","Monero",0.0002]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/XMR","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/XMR"}],["CRV/USDT",0.01,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/CRV/USDT","buyPrice":0.8379,"buyQty":560,"sellPrice":0.8378,"sellQty":334.27,"fee":[[7,"CRV","ERC20",7]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/CRV_USDT?theme=dark&type=spot","buyPrice":0.839,"buyQty":22085.7,"sellPrice":0.838,"sellQty":8662,"fee":[[15,"CRV","Ethereum (ERC20)",30]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/CRV","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/CRV"}],["CAKE/USDT",0.01,{"market":"BYBIT","url":"https://www.bybit.com/uk-UA/trade/spot/CAKE/USDT","buyPrice":1.8999,"buyQty":50.58,"sellPrice":1.8994,"sellQty":0.17,"fee":[[0.016,"CAKE","BSC (BEP20)",0.032]],"withdrlUrl":"https://www.bybit.com/user/assets/home/spot","depUrl":"https://www.bybit.com/user/assets/home/spot"},{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/CAKE_USDT?theme=dark&type=spot","buyPrice":1.901,"buyQty":1636.94,"sellPrice":1.9,"sellQty":4.12,"fee":[[0.023,"CAKE","BNB Smart Chain (BEP20)",0.046],[0.085,"CAKE","BNB Beacon Chain (BEP2)",0.17]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/CAKE","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/CAKE"}],["JASMY/USDT",0.01,{"market":"BINANCE","url":"https://www.binance.com/uk-UA/trade/JASMY_USDT?theme=dark&type=spot","buyPrice":0.006884,"buyQty":124408,"sellPrice":0.006883,"sellQty":17109,"fee":[[15,"JASMY","BNB Smart Chain (BEP20)",30],[1948,"JASMY","Ethereum (ERC20)",3896]],"withdrlUrl":"https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/JASMY","depUrl":"https://www.binance.com/en/my/wallet/account/main/deposit/crypto/JASMY"},{"market":"MEXC","url":"https://www.mexc.com/exchange/JASMY_USDT","buyPrice":0.006888,"buyQty":571009,"sellPrice":0.006885,"sellQty":257768,"fee":[[1967,"JASMY","ERC20",500]],"withdrlUrl":"https://www.mexc.com/assets/withdraw/JASMY","depUrl":"https://www.mexc.com/assets/deposit/JASMY"}]]}
+{
+  "date": 1683640264884,
+  "sortData": [
+    [
+      "WSB/USDT",
+      4143798,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/WSB_USDT",
+        "buyPrice": 1.098e-7,
+        "buyQty": 9942260,
+        "sellPrice": 1.09e-7,
+        "sellQty": 92773036,
+        "fee": [[195017609, "WSB", "ERC20", 100000000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/WSB",
+        "depUrl": "https://www.mexc.com/assets/deposit/WSB"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/WSB-USDT",
+        "buyPrice": 0.004565,
+        "buyQty": 158,
+        "sellPrice": 0.00455,
+        "sellQty": 30539,
+        "fee": [[7747.58967111, "WSB", "ERC20", 0.1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/wsb",
+        "depUrl": "https://www.okx.com/balance/recharge/wsb"
+      }
+    ],
+    [
+      "FUN/USDT",
+      6.37,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/FUN_USDT",
+        "buyPrice": 0.005024,
+        "buyQty": 2889,
+        "sellPrice": 0.004999,
+        "sellQty": 4858,
+        "fee": [[862.068965, "FUN", "ERC20", 1724.13793]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/FUN",
+        "depUrl": "https://www.mexc.com/assets/deposit/FUN"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/FUN_USDT?theme=dark&type=spot",
+        "buyPrice": 0.005346,
+        "buyQty": 2736,
+        "sellPrice": 0.005344,
+        "sellQty": 3028,
+        "fee": [[2428, "FUN", "Ethereum (ERC20)", 4856]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/FUN",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/FUN"
+      }
+    ],
+    [
+      "PRQ/USDT",
+      4.01,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/PRQ_USDT",
+        "buyPrice": 0.0923,
+        "buyQty": 642.73,
+        "sellPrice": 0.09178,
+        "sellQty": 141.5,
+        "fee": [
+          [113, "PRQ", "ERC20", 30],
+          [7, "PRQ", "BEP20(BSC)", 2]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/PRQ",
+        "depUrl": "https://www.mexc.com/assets/deposit/PRQ"
+      },
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/PRQ_USDT",
+        "buyPrice": 0.09604593,
+        "buyQty": 1912.43,
+        "sellPrice": 0.096,
+        "sellQty": 104.17,
+        "fee": [[20, "PRQ", "PRQ(ERC20)", 100]],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/PRQ",
+        "depUrl": "https://exmo.com/wallet/deposit/PRQ"
+      }
+    ],
+    [
+      "FODL/USDT",
+      3.16,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/FODL_USDT",
+        "buyPrice": 0.002908,
+        "buyQty": 7228,
+        "sellPrice": 0.002882,
+        "sellQty": 78506,
+        "fee": [[5226, "FODL", "ERC20", 60]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/FODL",
+        "depUrl": "https://www.mexc.com/assets/deposit/FODL"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/FODL-USDT",
+        "buyPrice": 0.00301,
+        "buyQty": 310,
+        "sellPrice": 0.003,
+        "sellQty": 2017,
+        "fee": [[2065.40731898, "FODL", "ERC20", 0.01]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/fodl",
+        "depUrl": "https://www.okx.com/balance/recharge/fodl"
+      }
+    ],
+    [
+      "BORING/USDT",
+      1.95,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/BORING-USDT",
+        "buyPrice": 0.00313,
+        "buyQty": 47019,
+        "sellPrice": 0.00312,
+        "sellQty": 33068,
+        "fee": [[1865.93336797, "BORING", "ERC20", 0.1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/boring",
+        "depUrl": "https://www.okx.com/balance/recharge/boring"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/BORING_USDT",
+        "buyPrice": 0.003225,
+        "buyQty": 5382,
+        "sellPrice": 0.003191,
+        "sellQty": 20217,
+        "fee": [
+          [5326, "BORING", "ERC20", 300],
+          [38, "BORING", "BEP20(BSC)", 30]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/BORING",
+        "depUrl": "https://www.mexc.com/assets/deposit/BORING"
+      }
+    ],
+    [
+      "VRA/USDT",
+      1.67,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/VRA-USDT",
+        "buyPrice": 0.00473,
+        "buyQty": 75739,
+        "sellPrice": 0.00471,
+        "sellQty": 955632,
+        "fee": [[2915.45391257, "VRA", "ERC20", 10]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/vra",
+        "depUrl": "https://www.okx.com/balance/recharge/vra"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/VRA_USDT",
+        "buyPrice": 0.00486,
+        "buyQty": 6213,
+        "sellPrice": 0.004809,
+        "sellQty": 14589,
+        "fee": [[4048, "VRA", "ERC20", 1000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/VRA",
+        "depUrl": "https://www.mexc.com/assets/deposit/VRA"
+      }
+    ],
+    [
+      "EDEN/USDT",
+      1.19,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/EDEN-USDT",
+        "buyPrice": 0.0598,
+        "buyQty": 1829.68,
+        "sellPrice": 0.0597,
+        "sellQty": 1046.77,
+        "fee": [[152.47805424, "EDEN", "ERC20", 0.000001]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/eden",
+        "depUrl": "https://www.okx.com/balance/recharge/eden"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/EDEN_USDT",
+        "buyPrice": 0.06052,
+        "buyQty": 227.44,
+        "sellPrice": 0.06051,
+        "sellQty": 87.32,
+        "fee": [[66, "EDEN", "ERC20", 120]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/EDEN",
+        "depUrl": "https://www.mexc.com/assets/deposit/EDEN"
+      }
+    ],
+    [
+      "RADAR/USDT",
+      1.12,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/RADAR_USDT",
+        "buyPrice": 0.007427,
+        "buyQty": 5364,
+        "sellPrice": 0.007242,
+        "sellQty": 5263,
+        "fee": [[2113, "RADAR", "ERC20", 500]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/RADAR",
+        "depUrl": "https://www.mexc.com/assets/deposit/RADAR"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/RADAR-USDT",
+        "buyPrice": 0.00753,
+        "buyQty": 1700,
+        "sellPrice": 0.00751,
+        "sellQty": 5261,
+        "fee": [[100, "RADAR", "ERC20", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/radar",
+        "depUrl": "https://www.okx.com/balance/recharge/radar"
+      }
+    ],
+    [
+      "STETH/USDT",
+      1.11,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/STETH_USDT",
+        "buyPrice": 1810.92,
+        "buyQty": 0.0038,
+        "sellPrice": 1789.28,
+        "sellQty": 0.1136,
+        "fee": [[0.0109047, "STETH", "ERC20", 0.01]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/STETH",
+        "depUrl": "https://www.mexc.com/assets/deposit/STETH"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/STETH/USDT",
+        "buyPrice": 1833.98,
+        "buyQty": 0.02675,
+        "sellPrice": 1830.97,
+        "sellQty": 0.00748,
+        "fee": [[0.0135, "STETH", "ERC20", 0.0135]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "MIR/USDT",
+      0.75,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/MIR-USDT",
+        "buyPrice": 0.053,
+        "buyQty": 6302.11,
+        "sellPrice": 0.052,
+        "sellQty": 2392.58,
+        "fee": [[1, "MIR", "MIR-Terra Classic", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/mir",
+        "depUrl": "https://www.okx.com/balance/recharge/mir"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/MIR_USDT",
+        "buyPrice": 0.05469,
+        "buyQty": 848.96,
+        "sellPrice": 0.0534,
+        "sellQty": 6.96,
+        "fee": [[177, "MIR", "ERC20", 50]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/MIR",
+        "depUrl": "https://www.mexc.com/assets/deposit/MIR"
+      }
+    ],
+    [
+      "3P/USDT",
+      0.72,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/3P_USDT",
+        "buyPrice": 2.77e-8,
+        "buyQty": 1191713734,
+        "sellPrice": 2.738e-8,
+        "sellQty": 928172591,
+        "fee": [[11500000, "3P", "BEP20(BSC)", 20000000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/3P",
+        "depUrl": "https://www.mexc.com/assets/deposit/3P"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/3P/USDT",
+        "buyPrice": 2.822e-8,
+        "buyQty": 670549897,
+        "sellPrice": 2.79e-8,
+        "sellQty": 1290322581,
+        "fee": [[1000000, "3P", "BSC (BEP20)", 1000000]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "HIFI/USDT",
+      0.63,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/HIFI_USDT",
+        "buyPrice": 0.3625,
+        "buyQty": 61.96,
+        "sellPrice": 0.3565,
+        "sellQty": 223.84,
+        "fee": [[1, "HIFI", "ETH", 2]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/HIFI",
+        "depUrl": "https://www.mexc.com/assets/deposit/HIFI"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/HIFI_USDT?theme=dark&type=spot",
+        "buyPrice": 0.3653,
+        "buyQty": 1690.1,
+        "sellPrice": 0.3648,
+        "sellQty": 98.6,
+        "fee": [[35, "HIFI", "Ethereum (ERC20)", 70]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/HIFI",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/HIFI"
+      }
+    ],
+    [
+      "DOGE/USDT",
+      0.57,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/DOGE_USDT?theme=dark&type=spot",
+        "buyPrice": 0.07288,
+        "buyQty": 56975,
+        "sellPrice": 0.07287,
+        "sellQty": 214615,
+        "fee": [
+          [1.1, "DOGE", "BNB Smart Chain (BEP20)", 2.2],
+          [4, "DOGE", "dogecoin", 80],
+          [2.17, "DOGE", "BNB Beacon Chain (BEP2)", 4.34]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/DOGE",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/DOGE"
+      },
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/DOGE_USDT",
+        "buyPrice": 0.07877849,
+        "buyQty": 1603.87,
+        "sellPrice": 0.0732975,
+        "sellQty": 1079.29,
+        "fee": [[5, "Doge", "Doge", 30]],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/DOGE",
+        "depUrl": "https://exmo.com/wallet/deposit/DOGE"
+      }
+    ],
+    [
+      "AIDOGE/USDT",
+      0.54,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/AIDOGE_USDT",
+        "buyPrice": 3.6901e-10,
+        "buyQty": 6434562883383,
+        "sellPrice": 3.6897e-10,
+        "sellQty": 75297778053,
+        "fee": [[2000000000, "AIDOGE", "Arbitrum One", 10000000000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/AIDOGE",
+        "depUrl": "https://www.mexc.com/assets/deposit/AIDOGE"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/AIDOGE-USDT",
+        "buyPrice": 3.72e-10,
+        "buyQty": 24340781797638,
+        "sellPrice": 3.71e-10,
+        "sellQty": 42022598764,
+        "fee": [[2000000000, "AIDOGE", "AIDOGE-Arbitrum one", 1000000000]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/aidoge",
+        "depUrl": "https://www.okx.com/balance/recharge/aidoge"
+      }
+    ],
+    [
+      "MOVEZ/USDT",
+      0.48,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/MOVEZ-USDT",
+        "buyPrice": 0.00188,
+        "buyQty": 393,
+        "sellPrice": 0.00187,
+        "sellQty": 3074,
+        "fee": [[50, "MOVEZ", "MOVEZ-BSC", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/movez",
+        "depUrl": "https://www.okx.com/balance/recharge/movez"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/MOVEZ_USDT",
+        "buyPrice": 0.001962,
+        "buyQty": 15043,
+        "sellPrice": 0.001889,
+        "sellQty": 13967,
+        "fee": [[100, "MOVEZ", "BEP20(BSC)", 800]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/MOVEZ",
+        "depUrl": "https://www.mexc.com/assets/deposit/MOVEZ"
+      }
+    ],
+    [
+      "DOME/USDT",
+      0.42,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/DOME-USDT",
+        "buyPrice": 0.00096,
+        "buyQty": 4498520,
+        "sellPrice": 0.00095,
+        "sellQty": 14251665,
+        "fee": [[100, "DOME", "DOME-BSC", 10]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/dome",
+        "depUrl": "https://www.okx.com/balance/recharge/dome"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/DOME/USDT",
+        "buyPrice": 0.000969,
+        "buyQty": 439648,
+        "sellPrice": 0.000964,
+        "sellQty": 501,
+        "fee": [[20, "DOME", "BSC (BEP20)", 20]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "LQTY/USDT",
+      0.41,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/LQTY_USDT?theme=dark&type=spot",
+        "buyPrice": 1.222,
+        "buyQty": 3961.7,
+        "sellPrice": 1.221,
+        "sellQty": 2333.6,
+        "fee": [[10, "LQTY", "Ethereum (ERC20)", 20]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LQTY",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LQTY"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/LQTY-USDT",
+        "buyPrice": 1.228,
+        "buyQty": 239.28,
+        "sellPrice": 1.227,
+        "sellQty": 1.27,
+        "fee": [[2, "LQTY", "ERC20", 0.1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/lqty",
+        "depUrl": "https://www.okx.com/balance/recharge/lqty"
+      }
+    ],
+    [
+      "WWY/USDT",
+      0.34,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/WWY_USDT",
+        "buyPrice": 0.0062,
+        "buyQty": 32050,
+        "sellPrice": 0.006159,
+        "sellQty": 2763,
+        "fee": [[35, "WWY", "BEP20(BSC)", 100]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/WWY",
+        "depUrl": "https://www.mexc.com/assets/deposit/WWY"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/WWY/USDT",
+        "buyPrice": 0.006251,
+        "buyQty": 49180,
+        "sellPrice": 0.006221,
+        "sellQty": 7870,
+        "fee": [[70, "WWY", "BSC (BEP20)", 70]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "WXT/USDT",
+      0.32,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/WXT-USDT",
+        "buyPrice": 0.00309,
+        "buyQty": 59129,
+        "sellPrice": 0.00308,
+        "sellQty": 101,
+        "fee": [
+          [72, "WXT", "WXT-Stellar Lumens", 1],
+          [1039.5943307, "WXT", "ERC20", 1]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/wxt",
+        "depUrl": "https://www.okx.com/balance/recharge/wxt"
+      },
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/WXT_USDT",
+        "buyPrice": 0.00330995,
+        "buyQty": 27021,
+        "sellPrice": 0.00310001,
+        "sellQty": 9148,
+        "fee": [
+          [50, "WXT", "WXT", 250],
+          [200, "WXT", "WXT", 500]
+        ],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/WXT",
+        "depUrl": "https://exmo.com/wallet/deposit/WXT"
+      }
+    ],
+    [
+      "RUNE/USDT",
+      0.32,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/RUNE_USDT?theme=dark&type=spot",
+        "buyPrice": 1.202,
+        "buyQty": 20.9,
+        "sellPrice": 1.201,
+        "sellQty": 12389.3,
+        "fee": [[0.025, "RUNE", "THORChain", 0.5]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/RUNE",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/RUNE"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/RUNE/USDT",
+        "buyPrice": 1.2103,
+        "buyQty": 413.69,
+        "sellPrice": 1.2059,
+        "sellQty": 6.62,
+        "fee": [[0.038, "RUNE", "BNB (BEP2)", 0.076]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "FITFI/USDT",
+      0.32,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/FITFI/USDT",
+        "buyPrice": 0.006569,
+        "buyQty": 10500,
+        "sellPrice": 0.006538,
+        "sellQty": 5000,
+        "fee": [
+          [2, "FITFI", "AVAXC", 2],
+          [1, "FITFI", "STEP", 10]
+        ],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/FITFI_USDT",
+        "buyPrice": 0.006604,
+        "buyQty": 6185,
+        "sellPrice": 0.00659,
+        "sellQty": 703919,
+        "fee": [[6.6, "FITFI", "AVAX_CCHAIN", 20]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/FITFI",
+        "depUrl": "https://www.mexc.com/assets/deposit/FITFI"
+      }
+    ],
+    [
+      "KASTA/USDT",
+      0.3,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/KASTA_USDT",
+        "buyPrice": 0.02007,
+        "buyQty": 2286.7,
+        "sellPrice": 0.01988,
+        "sellQty": 2246.63,
+        "fee": [[2, "KASTA", "MATIC", 20]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/KASTA",
+        "depUrl": "https://www.mexc.com/assets/deposit/KASTA"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/KASTA/USDT",
+        "buyPrice": 0.02023,
+        "buyQty": 519.7,
+        "sellPrice": 0.02013,
+        "sellQty": 1490.3,
+        "fee": [[0.25, "KASTA", "MATIC", 1]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "NULS/USDT",
+      0.23,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/NULS_USDT?theme=dark&type=spot",
+        "buyPrice": 0.2162,
+        "buyQty": 933,
+        "sellPrice": 0.216,
+        "sellQty": 1388,
+        "fee": [
+          [0.32, "NULS", "BNB Smart Chain (BEP20)", 0.64],
+          [0.01, "NULS", "Nuls", 0.02]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/NULS",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/NULS"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/NULS-USDT",
+        "buyPrice": 0.2175,
+        "buyQty": 120,
+        "sellPrice": 0.2167,
+        "sellQty": 43.18,
+        "fee": [[0.008, "NULS", "NULS-NULS", 4]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/nuls",
+        "depUrl": "https://www.okx.com/balance/recharge/nuls"
+      }
+    ],
+    [
+      "GNS/USDT",
+      0.23,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/GNS_USDT?theme=dark&type=spot",
+        "buyPrice": 4.958,
+        "buyQty": 5.03,
+        "sellPrice": 4.953,
+        "sellQty": 73.36,
+        "fee": [
+          [0.3, "GNS", "Arbitrum One", 1],
+          [0.036, "GNS", "Polygon", 0.072]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/GNS",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/GNS"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/GNS/USDT",
+        "buyPrice": 4.9773,
+        "buyQty": 5.6,
+        "sellPrice": 4.9696,
+        "sellQty": 2.92,
+        "fee": [
+          [0.3, "GNS", "MATIC", 0.3],
+          [0.3, "GNS", "Arbitrum One", 0.3]
+        ],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "LEVER/USDT",
+      0.21,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/LEVER_USDT?theme=dark&type=spot",
+        "buyPrice": 0.001437,
+        "buyQty": 953537,
+        "sellPrice": 0.001436,
+        "sellQty": 790027,
+        "fee": [[8945, "LEVER", "Ethereum (ERC20)", 17890]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LEVER",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LEVER"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/LEVER_USDT",
+        "buyPrice": 0.001442,
+        "buyQty": 481643,
+        "sellPrice": 0.00144,
+        "sellQty": 120000,
+        "fee": [[2651, "LEVER", "ERC20", 3000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/LEVER",
+        "depUrl": "https://www.mexc.com/assets/deposit/LEVER"
+      }
+    ],
+    [
+      "LUNC/USDT",
+      0.21,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/LUNC-USDT",
+        "buyPrice": 0.00008521,
+        "buyQty": 2147650,
+        "sellPrice": 0.00008519,
+        "sellQty": 1332652,
+        "fee": [[1000, "LUNC", "LUNC-Terra Classic", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/lunc",
+        "depUrl": "https://www.okx.com/balance/recharge/lunc"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/LUNC_USDT?theme=dark&type=spot",
+        "buyPrice": 0.00008542,
+        "buyQty": 12035360,
+        "sellPrice": 0.00008539,
+        "sellQty": 2520208,
+        "fee": [[22.66, "LUNC", "Terra Classic", 30000]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LUNC",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LUNC"
+      }
+    ],
+    [
+      "GEAR/USDT",
+      0.21,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/GEAR_USDT",
+        "buyPrice": 0.006985,
+        "buyQty": 4845,
+        "sellPrice": 0.006807,
+        "sellQty": 1089,
+        "fee": [[2961, "GEAR", "ERC20", 150]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/GEAR",
+        "depUrl": "https://www.mexc.com/assets/deposit/GEAR"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/GEAR-USDT",
+        "buyPrice": 0.00702,
+        "buyQty": 10176,
+        "sellPrice": 0.007,
+        "sellQty": 35988,
+        "fee": [[5021.5858989, "GEAR", "ERC20", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/gear",
+        "depUrl": "https://www.okx.com/balance/recharge/gear"
+      }
+    ],
+    [
+      "TON/USDT",
+      0.2,
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/TON_USDT",
+        "buyPrice": 1.955,
+        "buyQty": 5.2,
+        "sellPrice": 1.949999,
+        "sellQty": 2.47,
+        "fee": [[0.1, "TON", "TON", 15]],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/TON",
+        "depUrl": "https://exmo.com/wallet/deposit/TON"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/TON_USDT",
+        "buyPrice": 1.96,
+        "buyQty": 1821.83,
+        "sellPrice": 1.959,
+        "sellQty": 1687.18,
+        "fee": [
+          [0.02, "TON", "TONCOIN", 1],
+          [0.47, "TON", "BEP20(BSC)", 1],
+          [3, "TON", "ERC20", 6]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/TON",
+        "depUrl": "https://www.mexc.com/assets/deposit/TON"
+      }
+    ],
+    [
+      "RIO/USDT",
+      0.19,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/RIO-USDT",
+        "buyPrice": 0.1544,
+        "buyQty": 8193.8,
+        "sellPrice": 0.1534,
+        "sellQty": 2.66,
+        "fee": [[0.1, "RIO", "RIO-Stellar Lumens", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/rio",
+        "depUrl": "https://www.okx.com/balance/recharge/rio"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/RIO_USDT",
+        "buyPrice": 0.156,
+        "buyQty": 706.22,
+        "sellPrice": 0.1547,
+        "sellQty": 1841.89,
+        "fee": [[3, "RIO", "ALGO", 10]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/RIO",
+        "depUrl": "https://www.mexc.com/assets/deposit/RIO"
+      }
+    ],
+    [
+      "ZAM/USDT",
+      0.18,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/ZAM/USDT",
+        "buyPrice": 0.004519,
+        "buyQty": 2634,
+        "sellPrice": 0.004514,
+        "sellQty": 9490,
+        "fee": [
+          [400, "ZAM", "ERC20", 400],
+          [6, "ZAM", "BSC (BEP20)", 6]
+        ],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/ZAM_USDT",
+        "buyPrice": 0.004543,
+        "buyQty": 4384,
+        "sellPrice": 0.004527,
+        "sellQty": 8062,
+        "fee": [
+          [828, "ZAM", "ERC20", 90],
+          [146, "ZAM", "BEP20(BSC)", 4]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/ZAM",
+        "depUrl": "https://www.mexc.com/assets/deposit/ZAM"
+      }
+    ],
+    [
+      "STRM/USDT",
+      0.18,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/STRM_USDT",
+        "buyPrice": 0.01235,
+        "buyQty": 1000,
+        "sellPrice": 0.01222,
+        "sellQty": 16765.83,
+        "fee": [[13, "STRM", "BEP20(BSC)", 2]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/STRM",
+        "depUrl": "https://www.mexc.com/assets/deposit/STRM"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/STRM/USDT",
+        "buyPrice": 0.012492,
+        "buyQty": 1088.67,
+        "sellPrice": 0.012372,
+        "sellQty": 2020,
+        "fee": [[2, "STRM", "BSC (BEP20)", 2]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "NFT/USDT",
+      0.17,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/NFT_USDT",
+        "buyPrice": 3.625e-7,
+        "buyQty": 34342270,
+        "sellPrice": 3.623e-7,
+        "sellQty": 77209870,
+        "fee": [
+          [820000, "NFT", "TRC20", 1000000],
+          [1, "NFT", "NONE", 2]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/NFT",
+        "depUrl": "https://www.mexc.com/assets/deposit/NFT"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/NFT-USDT",
+        "buyPrice": 3.633e-7,
+        "buyQty": 149559469,
+        "sellPrice": 3.631e-7,
+        "sellQty": 189788306,
+        "fee": [[80000, "NFT", "NFT-TRC20", 0.01]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/nft",
+        "depUrl": "https://www.okx.com/balance/recharge/nft"
+      }
+    ],
+    [
+      "SOLO/USDT",
+      0.17,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/SOLO_USDT",
+        "buyPrice": 0.1197,
+        "buyQty": 198.28,
+        "sellPrice": 0.1193,
+        "sellQty": 361.16,
+        "fee": [[2, "SOLO", "XRP", 4]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/SOLO",
+        "depUrl": "https://www.mexc.com/assets/deposit/SOLO"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/SOLO/USDT",
+        "buyPrice": 0.1201,
+        "buyQty": 1249.04,
+        "sellPrice": 0.1199,
+        "sellQty": 1227.08,
+        "fee": [[0.3, "SOLO", "XRP", 0.6]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "CMP/USDT",
+      0.16,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/CMP/USDT",
+        "buyPrice": 0.03804,
+        "buyQty": 1346.59,
+        "sellPrice": 0.03774,
+        "sellQty": 592.14,
+        "fee": [[1, "CMP", "Caduceus", 1]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/CMP_USDT",
+        "buyPrice": 0.0389,
+        "buyQty": 224.46,
+        "sellPrice": 0.0381,
+        "sellQty": 262.46,
+        "fee": [[1, "CMP", "CMP", 10]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/CMP",
+        "depUrl": "https://www.mexc.com/assets/deposit/CMP"
+      }
+    ],
+    [
+      "WNCG/USDT",
+      0.16,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/WNCG_USDT",
+        "buyPrice": 0.08207,
+        "buyQty": 261,
+        "sellPrice": 0.08195,
+        "sellQty": 1527.68,
+        "fee": [[127, "WNCG", "ERC20", 30]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/WNCG",
+        "depUrl": "https://www.mexc.com/assets/deposit/WNCG"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/WNCG-USDT",
+        "buyPrice": 0.0823,
+        "buyQty": 589.86,
+        "sellPrice": 0.0822,
+        "sellQty": 2448.76,
+        "fee": [[431.55012241, "WNCG", "ERC20", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/wncg",
+        "depUrl": "https://www.okx.com/balance/recharge/wncg"
+      }
+    ],
+    [
+      "VINU/USDT",
+      0.16,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/VINU_USDT",
+        "buyPrice": 1.1162e-8,
+        "buyQty": 9867328602,
+        "sellPrice": 1.1103e-8,
+        "sellQty": 1062603534,
+        "fee": [[54170418, "VINU", "BEP20(BSC)", 80000000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/VINU",
+        "depUrl": "https://www.mexc.com/assets/deposit/VINU"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/VINU/USDT",
+        "buyPrice": 1.125e-8,
+        "buyQty": 1153434199,
+        "sellPrice": 1.118e-8,
+        "sellQty": 75056919,
+        "fee": [[10000000, "VINU", "BSC (BEP20)", 10000000]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "CRO/USDT",
+      0.15,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/CRO-USDT",
+        "buyPrice": 0.0658,
+        "buyQty": 19971.27,
+        "sellPrice": 0.0657,
+        "sellQty": 4926.25,
+        "fee": [[0.03, "CRO", "CRO-Crypto", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/cro",
+        "depUrl": "https://www.okx.com/balance/recharge/cro"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/CRO_USDT",
+        "buyPrice": 0.06593,
+        "buyQty": 139.37,
+        "sellPrice": 0.0659,
+        "sellQty": 432.83,
+        "fee": [
+          [307, "CRO", "ERC20", 24],
+          [1, "CRO", "CRO", 2],
+          [1, "CRO", "CRONOS", 2]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/CRO",
+        "depUrl": "https://www.mexc.com/assets/deposit/CRO"
+      }
+    ],
+    [
+      "KSM/USDT",
+      0.14,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/KSM/USDT",
+        "buyPrice": 25.5929,
+        "buyQty": 9,
+        "sellPrice": 25.5714,
+        "sellQty": 9,
+        "fee": [[0.21, "KSM", "KSM", 0.21]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/KSM_USDT?theme=dark&type=spot",
+        "buyPrice": 25.64,
+        "buyQty": 5.038,
+        "sellPrice": 25.63,
+        "sellQty": 9.518,
+        "fee": [
+          [0.0023, "KSM", "BNB Smart Chain (BEP20)", 0.0046],
+          [0.01, "KSM", "Kusama", 1.01]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/KSM",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/KSM"
+      }
+    ],
+    [
+      "XNO/USDT",
+      0.14,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/XNO_USDT?theme=dark&type=spot",
+        "buyPrice": 0.726,
+        "buyQty": 522.46,
+        "sellPrice": 0.725,
+        "sellQty": 306.18,
+        "fee": [[0.032, "XNO", "NANO", 0.064]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/XNO",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/XNO"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/XNO-USDT",
+        "buyPrice": 0.729,
+        "buyQty": 1278.07,
+        "sellPrice": 0.727,
+        "sellQty": 66.54,
+        "fee": [[0.1, "XNO", "XNO-Nano", 0.001]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/xno",
+        "depUrl": "https://www.okx.com/balance/recharge/xno"
+      }
+    ],
+    [
+      "SUI/USDT",
+      0.13,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/SUI-USDT",
+        "buyPrice": 1.1315,
+        "buyQty": 884.7,
+        "sellPrice": 1.1309,
+        "sellQty": 818.75,
+        "fee": [[0.02, "SUI", "SUI-SUI", 0.1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/sui",
+        "depUrl": "https://www.okx.com/balance/recharge/sui"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/SUI_USDT",
+        "buyPrice": 1.1331,
+        "buyQty": 1978.76,
+        "sellPrice": 1.133,
+        "sellQty": 17.38,
+        "fee": [[0.1, "SUI", "SUI", 5]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/SUI",
+        "depUrl": "https://www.mexc.com/assets/deposit/SUI"
+      }
+    ],
+    [
+      "ONE/USDT",
+      0.13,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/ONE_USDT?theme=dark&type=spot",
+        "buyPrice": 0.0159,
+        "buyQty": 86522.2,
+        "sellPrice": 0.01589,
+        "sellQty": 75202.5,
+        "fee": [
+          [0.1, "ONE", "Harmony", 60],
+          [0, "ONE", "BNB Beacon Chain (BEP2)", 8]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ONE",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ONE"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/ONE-USDT",
+        "buyPrice": 0.01595,
+        "buyQty": 903.29,
+        "sellPrice": 0.01592,
+        "sellQty": 256.9,
+        "fee": [[0, "ONE", "ONE-Harmony", 0.0001]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/one",
+        "depUrl": "https://www.okx.com/balance/recharge/one"
+      }
+    ],
+    [
+      "AGLD/USDT",
+      0.11,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/AGLD-USDT",
+        "buyPrice": 0.3614,
+        "buyQty": 57.07,
+        "sellPrice": 0.3611,
+        "sellQty": 151.59,
+        "fee": [[27.2, "AGLD", "ERC20", 0.01]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/agld",
+        "depUrl": "https://www.okx.com/balance/recharge/agld"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/AGLD/USDT",
+        "buyPrice": 0.3619,
+        "buyQty": 529.4,
+        "sellPrice": 0.3618,
+        "sellQty": 6.91,
+        "fee": [[6.76, "AGLD", "ERC20", 13]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "MLN/USDT",
+      0.1,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/MLN_USDT?theme=dark&type=spot",
+        "buyPrice": 19.88,
+        "buyQty": 48.069,
+        "sellPrice": 19.85,
+        "sellQty": 50,
+        "fee": [[0.01, "MLN", "Ethereum (ERC20)", 0.02]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/MLN",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/MLN"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/MLN-USDT",
+        "buyPrice": 20,
+        "buyQty": 59.65,
+        "sellPrice": 19.9,
+        "sellQty": 179.66,
+        "fee": [[0.48358502, "MLN", "ERC20", 0.1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/mln",
+        "depUrl": "https://www.okx.com/balance/recharge/mln"
+      }
+    ],
+    [
+      "BETH/USDT",
+      0.1,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/BETH_USDT?theme=dark&type=spot",
+        "buyPrice": 1838.14,
+        "buyQty": 0.0287,
+        "sellPrice": 1836.97,
+        "sellQty": 0.0142,
+        "fee": [[0.000057, "BETH", "BNB Smart Chain (BEP20)", 0.00011]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/BETH",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/BETH"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/BETH-USDT",
+        "buyPrice": 1841.86,
+        "buyQty": 0.03258,
+        "sellPrice": 1840,
+        "sellQty": 0.00231,
+        "fee": [[0, "BETH", "ERC20", 0]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/beth",
+        "depUrl": "https://www.okx.com/balance/recharge/beth"
+      }
+    ],
+    [
+      "KP3R/USDT",
+      0.09,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/KP3R_USDT?theme=dark&type=spot",
+        "buyPrice": 65.16,
+        "buyQty": 0.73,
+        "sellPrice": 65.07,
+        "sellQty": 1.58,
+        "fee": [[0.2, "KP3R", "Ethereum (ERC20)", 0.4]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/KP3R",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/KP3R"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/KP3R-USDT",
+        "buyPrice": 65.23,
+        "buyQty": 3.016,
+        "sellPrice": 65.22,
+        "sellQty": 0.028,
+        "fee": [[0.16, "KP3R", "ERC20", 0.01]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/kp3r",
+        "depUrl": "https://www.okx.com/balance/recharge/kp3r"
+      }
+    ],
+    [
+      "USTC/USDT",
+      0.09,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/USTC_USDT?theme=dark&type=spot",
+        "buyPrice": 0.01508704,
+        "buyQty": 4555,
+        "sellPrice": 0.01506104,
+        "sellQty": 30388,
+        "fee": [[0.6, "USTC", "Terra Classic", 200]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/USTC",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/USTC"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/USTC-USDT",
+        "buyPrice": 0.01513,
+        "buyQty": 45303.7,
+        "sellPrice": 0.0151,
+        "sellQty": 224.55,
+        "fee": [[10, "USTC", "USTC-Terra Classic", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/ustc",
+        "depUrl": "https://www.okx.com/balance/recharge/ustc"
+      }
+    ],
+    [
+      "EURT/USDT",
+      0.09,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/EURT_USDT",
+        "buyPrice": 1.093,
+        "buyQty": 9.1,
+        "sellPrice": 1.0922,
+        "sellQty": 15.87,
+        "fee": [[1, "EURT", "ERC20", 10]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/EURT",
+        "depUrl": "https://www.mexc.com/assets/deposit/EURT"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/EURT-USDT",
+        "buyPrice": 1.0963,
+        "buyQty": 4500,
+        "sellPrice": 1.094,
+        "sellQty": 35.53,
+        "fee": [[5, "EURT", "ERC20", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/eurt",
+        "depUrl": "https://www.okx.com/balance/recharge/eurt"
+      }
+    ],
+    [
+      "COMP/USDT",
+      0.08,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/COMP/USDT",
+        "buyPrice": 36.29,
+        "buyQty": 0.853,
+        "sellPrice": 36.28,
+        "sellQty": 1.262,
+        "fee": [[0.068, "COMP", "ERC20", 0.14]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/COMP_USDT?theme=dark&type=spot",
+        "buyPrice": 36.33,
+        "buyQty": 41.758,
+        "sellPrice": 36.32,
+        "sellQty": 6.71,
+        "fee": [
+          [0.0018, "COMP", "BNB Smart Chain (BEP20)", 0.0036],
+          [0.0043, "COMP", "BNB Beacon Chain (BEP2)", 0.0086],
+          [0.35, "COMP", "Ethereum (ERC20)", 0.7]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/COMP",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/COMP"
+      }
+    ],
+    [
+      "USDD/USDT",
+      0.07,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/USDD/USDT",
+        "buyPrice": 0.9977,
+        "buyQty": 99.62,
+        "sellPrice": 0.9951,
+        "sellQty": 0.95,
+        "fee": [
+          [30, "USDD", "ERC20", 30],
+          [2.6, "USDD", "TRC20", 2.6]
+        ],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/USDD_USDT",
+        "buyPrice": 0.9991,
+        "buyQty": 10.83,
+        "sellPrice": 0.9984,
+        "sellQty": 11.77,
+        "fee": [
+          [5, "USDD", "ERC20", 10],
+          [1, "USDD", "BEP20(BSC)", 2],
+          [1, "USDD", "TRC20", 3]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/USDD",
+        "depUrl": "https://www.mexc.com/assets/deposit/USDD"
+      }
+    ],
+    [
+      "BTT/USDT",
+      0.07,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/BTT/USDT",
+        "buyPrice": 6.015e-7,
+        "buyQty": 93008803,
+        "sellPrice": 5.987e-7,
+        "sellQty": 75166040,
+        "fee": [[3000000, "BTT", "TRC20", 3000000]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/BTT_USDT",
+        "buyPrice": 6.031e-7,
+        "buyQty": 171382125,
+        "sellPrice": 6.019e-7,
+        "sellQty": 303656795,
+        "fee": [
+          [500000, "BTT", "TRC20", 520000],
+          [521285, "BTT", "BEP20(BSC)", 400000]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/BTT",
+        "depUrl": "https://www.mexc.com/assets/deposit/BTT"
+      }
+    ],
+    [
+      "ETH/USDT",
+      0.06,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/ETH-USDT",
+        "buyPrice": 1841.8,
+        "buyQty": 2.09351,
+        "sellPrice": 1841.79,
+        "sellQty": 1.16733,
+        "fee": [
+          [0.0028, "ETH", "ERC20", 0.01],
+          [0, "ETH", "ETHK-OKTC", 0.001],
+          [0.0001, "ETH", "ETH-Arbitrum one", 0.001],
+          [0.0002, "ETH", "ETH-zkSync Lite", 0.001],
+          [0.0005, "ETH", "ETH-Optimism", 0.0001]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/eth",
+        "depUrl": "https://www.okx.com/balance/recharge/eth"
+      },
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/ETH_USDT",
+        "buyPrice": 1842.8635,
+        "buyQty": 0.08427,
+        "sellPrice": 1842.8634,
+        "sellQty": 0,
+        "fee": [[0.0006, "ETH", "ETH", 0.0012]],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/ETH",
+        "depUrl": "https://exmo.com/wallet/deposit/ETH"
+      }
+    ],
+    [
+      "AVAX/USDT",
+      0.06,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/AVAX/USDT",
+        "buyPrice": 15.4211,
+        "buyQty": 28,
+        "sellPrice": 15.4189,
+        "sellQty": 28,
+        "fee": [
+          [0.01, "AVAX", "AVAX", 0.11],
+          [0.02, "AVAX", "AVAXC", 0.02]
+        ],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/AVAX_USDT?theme=dark&type=spot",
+        "buyPrice": 15.44,
+        "buyQty": 2058.47,
+        "sellPrice": 15.43,
+        "sellQty": 1275.48,
+        "fee": [
+          [0.0051, "AVAX", "BNB Smart Chain (BEP20)", 0.01],
+          [0.008, "AVAX", "Avalanche", 0.1],
+          [0.008, "AVAX", "AVAX C-Chain", 0.1]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/AVAX",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/AVAX"
+      }
+    ],
+    [
+      "ICP/USDT",
+      0.06,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/ICP/USDT",
+        "buyPrice": 5.2177,
+        "buyQty": 43.53,
+        "sellPrice": 5.2138,
+        "sellQty": 257.32,
+        "fee": [[0.006, "ICP", "ICP", 0.006]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/ICP_USDT?theme=dark&type=spot",
+        "buyPrice": 5.222,
+        "buyQty": 112.69,
+        "sellPrice": 5.221,
+        "sellQty": 8.8,
+        "fee": [[0.0003, "ICP", "Internet Computer", 0.001]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ICP",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ICP"
+      }
+    ],
+    [
+      "UFT/USDT",
+      0.06,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/UFT_USDT?theme=dark&type=spot",
+        "buyPrice": 0.3567,
+        "buyQty": 47,
+        "sellPrice": 0.3562,
+        "sellQty": 582,
+        "fee": [
+          [0.22, "UFT", "BNB Smart Chain (BEP20)", 0.44],
+          [36, "UFT", "Ethereum (ERC20)", 72]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/UFT",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/UFT"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/UFT_USDT",
+        "buyPrice": 0.3581,
+        "buyQty": 60.76,
+        "sellPrice": 0.3569,
+        "sellQty": 436.45,
+        "fee": [[5, "UFT", "ERC20", 10]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/UFT",
+        "depUrl": "https://www.mexc.com/assets/deposit/UFT"
+      }
+    ],
+    [
+      "SIS/USDT",
+      0.06,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/SIS/USDT",
+        "buyPrice": 0.155,
+        "buyQty": 4161.29,
+        "sellPrice": 0.1549,
+        "sellQty": 63.81,
+        "fee": [[8.75, "SIS", "ERC20", 17.5]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/SIS-USDT",
+        "buyPrice": 0.1559,
+        "buyQty": 1.85,
+        "sellPrice": 0.1551,
+        "sellQty": 3238.77,
+        "fee": [[39.75875611, "SIS", "ERC20", 0.001]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/sis",
+        "depUrl": "https://www.okx.com/balance/recharge/sis"
+      }
+    ],
+    [
+      "ZRX/USDT",
+      0.05,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/ZRX-USDT",
+        "buyPrice": 0.2185,
+        "buyQty": 448.06,
+        "sellPrice": 0.2184,
+        "sellQty": 73,
+        "fee": [[47.2, "ZRX", "ERC20", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/zrx",
+        "depUrl": "https://www.okx.com/balance/recharge/zrx"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/ZRX_USDT?theme=dark&type=spot",
+        "buyPrice": 0.2187,
+        "buyQty": 1679,
+        "sellPrice": 0.2186,
+        "sellQty": 1012,
+        "fee": [[59, "ZRX", "Ethereum (ERC20)", 118]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ZRX",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ZRX"
+      }
+    ],
+    [
+      "UMA/USDT",
+      0.05,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/UMA/USDT",
+        "buyPrice": 2.9516,
+        "buyQty": 169.73,
+        "sellPrice": 2.9414,
+        "sellQty": 53.51,
+        "fee": [[2.61, "UMA", "ERC20", 5.22]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/UMA_USDT?theme=dark&type=spot",
+        "buyPrice": 2.955,
+        "buyQty": 27.2,
+        "sellPrice": 2.953,
+        "sellQty": 91.3,
+        "fee": [[4.81, "UMA", "Ethereum (ERC20)", 9.62]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/UMA",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/UMA"
+      }
+    ],
+    [
+      "GRT/USDT",
+      0.05,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/GRT/USDT",
+        "buyPrice": 0.11574,
+        "buyQty": 2150,
+        "sellPrice": 0.11564,
+        "sellQty": 1438.13,
+        "fee": [[29, "GRT", "ERC20", 29]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/GRT_USDT?theme=dark&type=spot",
+        "buyPrice": 0.1159,
+        "buyQty": 120436,
+        "sellPrice": 0.1158,
+        "sellQty": 5975,
+        "fee": [
+          [5, "GRT", "Arbitrum One", 10],
+          [110, "GRT", "Ethereum (ERC20)", 220],
+          [1.54, "GRT", "Polygon", 3.08]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/GRT",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/GRT"
+      }
+    ],
+    [
+      "WBTC/USDT",
+      0.05,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/WBTC/USDT",
+        "buyPrice": 27614.86,
+        "buyQty": 0.002208,
+        "sellPrice": 27507.9,
+        "sellQty": 0.001869,
+        "fee": [[0.0006, "WBTC", "ERC20", 0.0006]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/WBTC_USDT",
+        "buyPrice": 27630.3,
+        "buyQty": 0.0007,
+        "sellPrice": 27628.1,
+        "sellQty": 0.0006,
+        "fee": [[0.00025457, "WBTC", "ERC20", 0.0006]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/WBTC",
+        "depUrl": "https://www.mexc.com/assets/deposit/WBTC"
+      }
+    ],
+    [
+      "XRP/USDT",
+      0.04,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/XRP-USDT",
+        "buyPrice": 0.42485,
+        "buyQty": 103.59,
+        "sellPrice": 0.42484,
+        "sellQty": 1796.36,
+        "fee": [
+          [0.2, "XRP", "XRP-Ripple", 21],
+          [0, "XRP", "XRPK-OKTC", 0.1]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/xrp",
+        "depUrl": "https://www.okx.com/balance/recharge/xrp"
+      },
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/XRP_USDT",
+        "buyPrice": 0.42514,
+        "buyQty": 3942.24,
+        "sellPrice": 0.425,
+        "sellQty": 150.32,
+        "fee": [[0.25, "XRP", "XRP", 20]],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/XRP",
+        "depUrl": "https://exmo.com/wallet/deposit/XRP"
+      }
+    ],
+    [
+      "BNB/USDT",
+      0.04,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/BNB/USDT",
+        "buyPrice": 313.8732,
+        "buyQty": 0.87,
+        "sellPrice": 313.863,
+        "sellQty": 1.45,
+        "fee": [[0.0005, "BNB", "BSC (BEP20)", 0.015]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/BNB-USDT",
+        "buyPrice": 314.01,
+        "buyQty": 0.5939,
+        "sellPrice": 314,
+        "sellQty": 0,
+        "fee": [[0.001, "BNB", "BNB-BSC", 0.00001]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/bnb",
+        "depUrl": "https://www.okx.com/balance/recharge/bnb"
+      }
+    ],
+    [
+      "ZIL/USDT",
+      0.04,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/ZIL/USDT",
+        "buyPrice": 0.02395,
+        "buyQty": 20870.4,
+        "sellPrice": 0.02391,
+        "sellQty": 215212.8,
+        "fee": [[0.2, "ZIL", "ZIL", 0.4]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/ZIL_USDT?theme=dark&type=spot",
+        "buyPrice": 0.02397,
+        "buyQty": 200439,
+        "sellPrice": 0.02396,
+        "sellQty": 1045.9,
+        "fee": [
+          [2.84, "ZIL", "BNB Smart Chain (BEP20)", 5.68],
+          [0.2, "ZIL", "Zilliqa", 0.4]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ZIL",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ZIL"
+      }
+    ],
+    [
+      "AVA/USDT",
+      0.04,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/AVA_USDT?theme=dark&type=spot",
+        "buyPrice": 0.553,
+        "buyQty": 7579.3,
+        "sellPrice": 0.552,
+        "sellQty": 6881.2,
+        "fee": [
+          [0.12, "AVA", "BNB Smart Chain (BEP20)", 0.24],
+          [0.29, "AVA", "BNB Beacon Chain (BEP2)", 0.58],
+          [24, "AVA", "Ethereum (ERC20)", 48]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/AVA",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/AVA"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/AVA/USDT",
+        "buyPrice": 0.5546,
+        "buyQty": 123.69,
+        "sellPrice": 0.5532,
+        "sellQty": 214.22,
+        "fee": [[10, "AVA", "ERC20", 10]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "XEC/USDT",
+      0.04,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/XEC/USDT",
+        "buyPrice": 0.00002709,
+        "buyQty": 2900285,
+        "sellPrice": 0.00002704,
+        "sellQty": 145692952,
+        "fee": [[1000, "XEC", "XEC", 1000]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/XEC_USDT?theme=dark&type=spot",
+        "buyPrice": 0.00002712,
+        "buyQty": 5573088,
+        "sellPrice": 0.0000271,
+        "sellQty": 1660913,
+        "fee": [
+          [2617, "XEC", "BNB Smart Chain (BEP20)", 5234],
+          [1000, "XEC", "eCash", 20000]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/XEC",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/XEC"
+      }
+    ],
+    [
+      "ACH/USDT",
+      0.04,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/ACH_USDT?theme=dark&type=spot",
+        "buyPrice": 0.02345,
+        "buyQty": 13831,
+        "sellPrice": 0.02344,
+        "sellQty": 66965,
+        "fee": [
+          [2.3, "ACH", "BNB Smart Chain (BEP20)", 4.6],
+          [543, "ACH", "Ethereum (ERC20)", 1086]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ACH",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/ACH"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/ACH-USDT",
+        "buyPrice": 0.02349,
+        "buyQty": 21274.99,
+        "sellPrice": 0.02346,
+        "sellQty": 178.45,
+        "fee": [[488.7, "ACH", "ERC20", 10]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/ach",
+        "depUrl": "https://www.okx.com/balance/recharge/ach"
+      }
+    ],
+    [
+      "DAI/USDT",
+      0.04,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/DAI_USDT",
+        "buyPrice": 0.999,
+        "buyQty": 585.97,
+        "sellPrice": 0.9988,
+        "sellQty": 47230.37,
+        "fee": [[15, "DAI", "ERC20", 20]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/DAI",
+        "depUrl": "https://www.mexc.com/assets/deposit/DAI"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/DAI-USDT",
+        "buyPrice": 0.9995,
+        "buyQty": 2567.44,
+        "sellPrice": 0.9994,
+        "sellQty": 2838.88,
+        "fee": [
+          [6.86747868, "DAI", "ERC20", 1],
+          [0, "DAI", "DAIK-OKTC", 1],
+          [0.1, "DAI", "DAI-Polygon", 0.0001]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/dai",
+        "depUrl": "https://www.okx.com/balance/recharge/dai"
+      }
+    ],
+    [
+      "BONE/USDT",
+      0.04,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/BONE-USDT",
+        "buyPrice": 0.8035,
+        "buyQty": 3,
+        "sellPrice": 0.8004,
+        "sellQty": 24.38,
+        "fee": [[10, "BONE", "ERC20", 0.5]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/bone",
+        "depUrl": "https://www.okx.com/balance/recharge/bone"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/BONE_USDT",
+        "buyPrice": 0.8039,
+        "buyQty": 612.87,
+        "sellPrice": 0.8038,
+        "sellQty": 1121.75,
+        "fee": [[21, "BONE", "ERC20", 10]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/BONE",
+        "depUrl": "https://www.mexc.com/assets/deposit/BONE"
+      }
+    ],
+    [
+      "CBX/USDT",
+      0.04,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/CBX/USDT",
+        "buyPrice": 0.02674,
+        "buyQty": 462.04,
+        "sellPrice": 0.02651,
+        "sellQty": 1584.44,
+        "fee": [[18, "CBX", "ERC20", 36]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/CBX_USDT",
+        "buyPrice": 0.02678,
+        "buyQty": 1389.19,
+        "sellPrice": 0.02675,
+        "sellQty": 510.4,
+        "fee": [[298, "CBX", "ERC20", 50]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/CBX",
+        "depUrl": "https://www.mexc.com/assets/deposit/CBX"
+      }
+    ],
+    [
+      "YFI/USDT",
+      0.03,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/YFI/USDT",
+        "buyPrice": 7348.92,
+        "buyQty": 0.01773,
+        "sellPrice": 7348.58,
+        "sellQty": 0.0315,
+        "fee": [[0.00082, "YFI", "ERC20", 0.0016]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/YFI_USDT?theme=dark&type=spot",
+        "buyPrice": 7353,
+        "buyQty": 0.53722,
+        "sellPrice": 7351,
+        "sellQty": 0.02862,
+        "fee": [
+          [0.0000098, "YFI", "BNB Smart Chain (BEP20)", 0.00002],
+          [0.000022, "YFI", "BNB Beacon Chain (BEP2)", 0.000044],
+          [0.0018, "YFI", "Ethereum (ERC20)", 0.0036]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/YFI",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/YFI"
+      }
+    ],
+    [
+      "TRX/USDT",
+      0.03,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/TRX/USDT",
+        "buyPrice": 0.06895,
+        "buyQty": 23112.94,
+        "sellPrice": 0.06894,
+        "sellQty": 20037.12,
+        "fee": [[1, "TRX", "TRC20", 15]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/TRX-USDT",
+        "buyPrice": 0.06898,
+        "buyQty": 9891.62,
+        "sellPrice": 0.06897,
+        "sellQty": 10579.55,
+        "fee": [
+          [0.8, "TRX", "TRX-TRC20", 20],
+          [0, "TRX", "TRXK-OKTC", 1]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/trx",
+        "depUrl": "https://www.okx.com/balance/recharge/trx"
+      }
+    ],
+    [
+      "LUNA/USDT",
+      0.03,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/LUNA_USDT?theme=dark&type=spot",
+        "buyPrice": 0.9638,
+        "buyQty": 300.41,
+        "sellPrice": 0.9635,
+        "sellQty": 163.83,
+        "fee": [[0.01, "LUNA", "Terra", 10]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/LUNA",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/LUNA"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/LUNA-USDT",
+        "buyPrice": 0.9644,
+        "buyQty": 112.82,
+        "sellPrice": 0.9641,
+        "sellQty": 313.3,
+        "fee": [[0.05, "LUNA", "LUNA-Terra", 0.01]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/luna",
+        "depUrl": "https://www.okx.com/balance/recharge/luna"
+      }
+    ],
+    [
+      "CVP/USDT",
+      0.03,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/CVP_USDT?theme=dark&type=spot",
+        "buyPrice": 0.3841,
+        "buyQty": 262.7,
+        "sellPrice": 0.3833,
+        "sellQty": 203.6,
+        "fee": [
+          [0.17, "CVP", "BNB Smart Chain (BEP20)", 0.34],
+          [35, "CVP", "Ethereum (ERC20)", 70]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/CVP",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/CVP"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/CVP_USDT",
+        "buyPrice": 0.3844,
+        "buyQty": 199.53,
+        "sellPrice": 0.3842,
+        "sellQty": 14.41,
+        "fee": [[32, "CVP", "ERC20", 3]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/CVP",
+        "depUrl": "https://www.mexc.com/assets/deposit/CVP"
+      }
+    ],
+    [
+      "RNDR/USDT",
+      0.03,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/RNDR/USDT",
+        "buyPrice": 1.7595,
+        "buyQty": 115,
+        "sellPrice": 1.7582,
+        "sellQty": 115,
+        "fee": [[4, "RNDR", "ERC20", 8]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/RNDR_USDT?theme=dark&type=spot",
+        "buyPrice": 1.761,
+        "buyQty": 5157.08,
+        "sellPrice": 1.76,
+        "sellQty": 962.55,
+        "fee": [[7, "RNDR", "Ethereum (ERC20)", 14]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/RNDR",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/RNDR"
+      }
+    ],
+    [
+      "SPELL/USDT",
+      0.03,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/SPELL/USDT",
+        "buyPrice": 0.00059353,
+        "buyQty": 171067,
+        "sellPrice": 0.00059285,
+        "sellQty": 356201,
+        "fee": [[812, "SPELL", "ERC20", 1624]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/SPELL_USDT?theme=dark&type=spot",
+        "buyPrice": 0.0005938,
+        "buyQty": 909708,
+        "sellPrice": 0.0005937,
+        "sellQty": 187576,
+        "fee": [
+          [50, "SPELL", "AVAX C-Chain", 100],
+          [21680, "SPELL", "Ethereum (ERC20)", 43360]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/SPELL",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/SPELL"
+      }
+    ],
+    [
+      "RDNT/USDT",
+      0.03,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/RDNT_USDT",
+        "buyPrice": 0.3295,
+        "buyQty": 250,
+        "sellPrice": 0.3271,
+        "sellQty": 20,
+        "fee": [[2, "RDNT", "Arbitrum One", 4]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/RDNT",
+        "depUrl": "https://www.mexc.com/assets/deposit/RDNT"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/RDNT_USDT?theme=dark&type=spot",
+        "buyPrice": 0.3297,
+        "buyQty": 95,
+        "sellPrice": 0.3296,
+        "sellQty": 6713,
+        "fee": [
+          [0.17, "RDNT", "BNB Smart Chain (BEP20)", 0.34],
+          [0.3, "RDNT", "Arbitrum One", 1]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/RDNT",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/RDNT"
+      }
+    ],
+    [
+      "XTZ/USDT",
+      0.02,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/XTZ/USDT",
+        "buyPrice": 0.9139,
+        "buyQty": 28.54,
+        "sellPrice": 0.9119,
+        "sellQty": 564.47,
+        "fee": [[1, "XTZ", "XTZ", 1]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/XTZ_USDT",
+        "buyPrice": 0.91525,
+        "buyQty": 10,
+        "sellPrice": 0.91408,
+        "sellQty": 145.43,
+        "fee": [[0.1, "XTZ", "XTZ", 6]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/XTZ",
+        "depUrl": "https://www.mexc.com/assets/deposit/XTZ"
+      }
+    ],
+    [
+      "AAVE/USDT",
+      0.02,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/AAVE/USDT",
+        "buyPrice": 64.447,
+        "buyQty": 3.6,
+        "sellPrice": 64.4378,
+        "sellQty": 3.6,
+        "fee": [[0.32, "AAVE", "ERC20", 0.32]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/AAVE-USDT",
+        "buyPrice": 64.47,
+        "buyQty": 0.891,
+        "sellPrice": 64.46,
+        "sellQty": 1.607,
+        "fee": [[0.54586847, "AAVE", "ERC20", 0.01]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/aave",
+        "depUrl": "https://www.okx.com/balance/recharge/aave"
+      }
+    ],
+    [
+      "AR/USDT",
+      0.02,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/AR/USDT",
+        "buyPrice": 6.5389,
+        "buyQty": 5.26,
+        "sellPrice": 6.5342,
+        "sellQty": 76.41,
+        "fee": [[0.5, "AR", "AR", 0.5]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/AR_USDT",
+        "buyPrice": 6.548,
+        "buyQty": 31.58,
+        "sellPrice": 6.54,
+        "sellQty": 987.14,
+        "fee": [[0.15, "AR", "AR", 0.3]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/AR",
+        "depUrl": "https://www.mexc.com/assets/deposit/AR"
+      }
+    ],
+    [
+      "PHA/USDT",
+      0.02,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/PHA_USDT?theme=dark&type=spot",
+        "buyPrice": 0.1202,
+        "buyQty": 550,
+        "sellPrice": 0.1201,
+        "sellQty": 2595,
+        "fee": [
+          [0.54, "PHA", "BNB Smart Chain (BEP20)", 1.08],
+          [16, "PHA", "Ethereum (ERC20)", 32]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/PHA",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/PHA"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/PHA_USDT",
+        "buyPrice": 0.120321,
+        "buyQty": 539,
+        "sellPrice": 0.120227,
+        "sellQty": 18756.08,
+        "fee": [
+          [48, "PHA", "ERC20", 60],
+          [1, "PHA", "Khala", 10]
+        ],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/PHA",
+        "depUrl": "https://www.mexc.com/assets/deposit/PHA"
+      }
+    ],
+    [
+      "APE/USDT",
+      0.02,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/APE_USDT?theme=dark&type=spot",
+        "buyPrice": 3.326,
+        "buyQty": 937.49,
+        "sellPrice": 3.325,
+        "sellQty": 992.07,
+        "fee": [
+          [0.018, "APE", "BNB Smart Chain (BEP20)", 0.036],
+          [3.84, "APE", "Ethereum (ERC20)", 7.68]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/APE",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/APE"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/APE-USDT",
+        "buyPrice": 3.3269,
+        "buyQty": 75.1,
+        "sellPrice": 3.3265,
+        "sellQty": 75.35,
+        "fee": [[3.456, "APE", "ERC20", 0.001]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/ape",
+        "depUrl": "https://www.okx.com/balance/recharge/ape"
+      }
+    ],
+    [
+      "GMX/USDT",
+      0.02,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/GMX/USDT",
+        "buyPrice": 62.709,
+        "buyQty": 3.6,
+        "sellPrice": 62.685,
+        "sellQty": 7.2,
+        "fee": [
+          [0.005, "GMX", "ARBI", 0.005],
+          [0.01, "GMX", "AVAXC", 0.01]
+        ],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/GMX_USDT?theme=dark&type=spot",
+        "buyPrice": 62.73,
+        "buyQty": 5.188,
+        "sellPrice": 62.72,
+        "sellQty": 15.83,
+        "fee": [
+          [0.02, "GMX", "AVAX C-Chain", 0.1],
+          [0.006, "GMX", "Arbitrum One", 0.1]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/GMX",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/GMX"
+      }
+    ],
+    [
+      "PEPE/USDT",
+      0.02,
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/PEPE_USDT",
+        "buyPrice": 0.0000019545,
+        "buyQty": 16325894,
+        "sellPrice": 0.0000019529,
+        "sellQty": 25030147,
+        "fee": [[10595572, "PEPE", "ERC20", 20000000]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/PEPE",
+        "depUrl": "https://www.mexc.com/assets/deposit/PEPE"
+      },
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/PEPE-USDT",
+        "buyPrice": 0.000001955,
+        "buyQty": 45391100,
+        "sellPrice": 0.0000019549,
+        "sellQty": 25540966,
+        "fee": [[5708155.2, "PEPE", "ERC20", 100000]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/pepe",
+        "depUrl": "https://www.okx.com/balance/recharge/pepe"
+      }
+    ],
+    [
+      "FLOKI/USDT",
+      0.02,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/FLOKI-USDT",
+        "buyPrice": 0.000034982,
+        "buyQty": 172261,
+        "sellPrice": 0.00003497,
+        "sellQty": 4574821,
+        "fee": [[10000, "FLOKI", "FLOKI-BSC", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/floki",
+        "depUrl": "https://www.okx.com/balance/recharge/floki"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/FLOKI_USDT?theme=dark&type=spot",
+        "buyPrice": 0.000035,
+        "buyQty": 64222892,
+        "sellPrice": 0.00003499,
+        "sellQty": 141185,
+        "fee": [
+          [2617, "FLOKI", "BNB Smart Chain (BEP20)", 5234],
+          [369417, "FLOKI", "Ethereum (ERC20)", 738834]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/FLOKI",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/FLOKI"
+      }
+    ],
+    [
+      "VELODROME/USDT",
+      0.02,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/VELODROME-USDT",
+        "buyPrice": 0.1075,
+        "buyQty": 57,
+        "sellPrice": 0.1066,
+        "sellQty": 51.08,
+        "fee": [[1, "VELODROME", "VELODROME-Optimism", 1]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/velodrome",
+        "depUrl": "https://www.okx.com/balance/recharge/velodrome"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/VELODROME_USDT",
+        "buyPrice": 0.10859,
+        "buyQty": 619.63,
+        "sellPrice": 0.10752,
+        "sellQty": 2071.58,
+        "fee": [[6, "VELODROME", "OP", 12]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/VELODROME",
+        "depUrl": "https://www.mexc.com/assets/deposit/VELODROME"
+      }
+    ],
+    [
+      "CSPR/USDT",
+      0.02,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/CSPR-USDT",
+        "buyPrice": 0.05227,
+        "buyQty": 2656.66,
+        "sellPrice": 0.0522,
+        "sellQty": 101.18,
+        "fee": [[4, "CSPR", "CSPR-Casper", 3]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/cspr",
+        "depUrl": "https://www.okx.com/balance/recharge/cspr"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/CSPR_USDT",
+        "buyPrice": 0.05231,
+        "buyQty": 257673.15,
+        "sellPrice": 0.05228,
+        "sellQty": 1777.72,
+        "fee": [[0.001, "CSPR", "CSPR", 3]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/CSPR",
+        "depUrl": "https://www.mexc.com/assets/deposit/CSPR"
+      }
+    ],
+    [
+      "BCH/USDT",
+      0.01,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/BCH-USDT",
+        "buyPrice": 120.68,
+        "buyQty": 3.5795,
+        "sellPrice": 120.67,
+        "sellQty": 0.2312,
+        "fee": [
+          [0.000512, "BCH", "BCH-BitcoinCash", 0.01],
+          [0, "BCH", "BCHK-OKTC", 0.0001]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/bch",
+        "depUrl": "https://www.okx.com/balance/recharge/bch"
+      },
+      {
+        "market": "EXMO",
+        "url": "https://exmo.com/trade/BCH_USDT",
+        "buyPrice": 120.799,
+        "buyQty": 1,
+        "sellPrice": 120.69,
+        "sellQty": 0.372,
+        "fee": [[0.001, "BCH", "BCH", 0.01]],
+        "withdrlUrl": "https://exmo.com/wallet/withdrawal/BCH",
+        "depUrl": "https://exmo.com/wallet/deposit/BCH"
+      }
+    ],
+    [
+      "BTC/USDT",
+      0.01,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/BTC-USDT",
+        "buyPrice": 27618.6,
+        "buyQty": 1.44864,
+        "sellPrice": 27618.5,
+        "sellQty": 0.001966,
+        "fee": [
+          [0.0009, "BTC", "BTC-Bitcoin", 0.001],
+          [0, "BTC", "BTC-Lightning", 0.000001],
+          [0, "BTC", "BTCK-OKTC", 0.0001]
+        ],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/btc",
+        "depUrl": "https://www.okx.com/balance/recharge/btc"
+      },
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/BTC/USDT",
+        "buyPrice": 27620.4,
+        "buyQty": 2.49433,
+        "sellPrice": 27620.39,
+        "sellQty": 0.520943,
+        "fee": [[0.0005, "BTC", "BTC", 0.0005]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      }
+    ],
+    [
+      "XMR/USDT",
+      0.01,
+      {
+        "market": "OKX",
+        "url": "https://www.okx.com/ua/trade-spot/XMR-USDT",
+        "buyPrice": 153.08,
+        "buyQty": 4.7877,
+        "sellPrice": 153.05,
+        "sellQty": 1.7055,
+        "fee": [[0, "XMR", "XMR-Monero", 0]],
+        "withdrlUrl": "https://www.okx.com/ua/balance/withdrawal/xmr",
+        "depUrl": "https://www.okx.com/balance/recharge/xmr"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/XMR_USDT?theme=dark&type=spot",
+        "buyPrice": 153.2,
+        "buyQty": 10.068,
+        "sellPrice": 153.1,
+        "sellQty": 189.576,
+        "fee": [[0.0001, "XMR", "Monero", 0.0002]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/XMR",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/XMR"
+      }
+    ],
+    [
+      "CRV/USDT",
+      0.01,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/CRV/USDT",
+        "buyPrice": 0.8379,
+        "buyQty": 560,
+        "sellPrice": 0.8378,
+        "sellQty": 334.27,
+        "fee": [[7, "CRV", "ERC20", 7]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/CRV_USDT?theme=dark&type=spot",
+        "buyPrice": 0.839,
+        "buyQty": 22085.7,
+        "sellPrice": 0.838,
+        "sellQty": 8662,
+        "fee": [[15, "CRV", "Ethereum (ERC20)", 30]],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/CRV",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/CRV"
+      }
+    ],
+    [
+      "CAKE/USDT",
+      0.01,
+      {
+        "market": "BYBIT",
+        "url": "https://www.bybit.com/uk-UA/trade/spot/CAKE/USDT",
+        "buyPrice": 1.8999,
+        "buyQty": 50.58,
+        "sellPrice": 1.8994,
+        "sellQty": 0.17,
+        "fee": [[0.016, "CAKE", "BSC (BEP20)", 0.032]],
+        "withdrlUrl": "https://www.bybit.com/user/assets/home/spot",
+        "depUrl": "https://www.bybit.com/user/assets/home/spot"
+      },
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/CAKE_USDT?theme=dark&type=spot",
+        "buyPrice": 1.901,
+        "buyQty": 1636.94,
+        "sellPrice": 1.9,
+        "sellQty": 4.12,
+        "fee": [
+          [0.023, "CAKE", "BNB Smart Chain (BEP20)", 0.046],
+          [0.085, "CAKE", "BNB Beacon Chain (BEP2)", 0.17]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/CAKE",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/CAKE"
+      }
+    ],
+    [
+      "JASMY/USDT",
+      0.01,
+      {
+        "market": "BINANCE",
+        "url": "https://www.binance.com/uk-UA/trade/JASMY_USDT?theme=dark&type=spot",
+        "buyPrice": 0.006884,
+        "buyQty": 124408,
+        "sellPrice": 0.006883,
+        "sellQty": 17109,
+        "fee": [
+          [15, "JASMY", "BNB Smart Chain (BEP20)", 30],
+          [1948, "JASMY", "Ethereum (ERC20)", 3896]
+        ],
+        "withdrlUrl": "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/JASMY",
+        "depUrl": "https://www.binance.com/en/my/wallet/account/main/deposit/crypto/JASMY"
+      },
+      {
+        "market": "MEXC",
+        "url": "https://www.mexc.com/exchange/JASMY_USDT",
+        "buyPrice": 0.006888,
+        "buyQty": 571009,
+        "sellPrice": 0.006885,
+        "sellQty": 257768,
+        "fee": [[1967, "JASMY", "ERC20", 500]],
+        "withdrlUrl": "https://www.mexc.com/assets/withdraw/JASMY",
+        "depUrl": "https://www.mexc.com/assets/deposit/JASMY"
+      }
+    ]
+  ]
+}

@@ -1,4 +1,4 @@
-const arbRouter = require("./arbitrages");
+const exclRouter = require("./exclusions");
 const authRouter = require("./auth");
 
-module.exports = { arbRouter, authRouter };
+module.exports = { exclRouter, authRouter };
