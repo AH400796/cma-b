@@ -1,9 +1,9 @@
-const path = require("path");
-const fs = require("fs").promises;
+// const path = require("path");
+// const fs = require("fs").promises;
 const { exclCtrls } = require("../controllers");
 const getArbitrage = require("./arb");
-const arbPath = path.join(__dirname, "./arb.json");
-const dataPath = path.join(__dirname, "./data.json");
+// const arbPath = path.join(__dirname, "./arb.json");
+// const dataPath = path.join(__dirname, "./data.json");
 
 const {
   exmoData,
@@ -27,8 +27,9 @@ const getData = async () => {
   const date = Date.now();
   const arb = getArbitrage(data);
   const sortData = arb.filter(el => el !== null).sort((a, b) => b[1] - a[1]);
-  fs.writeFile(dataPath, JSON.stringify(data), "utf8");
-  fs.writeFile(arbPath, JSON.stringify({ date, sortData }), "utf8");
+  // fs.writeFile(dataPath, JSON.stringify(data), "utf8");
+  // fs.writeFile(arbPath, JSON.stringify({ date, sortData }), "utf8");
+  return { date, sortData };
 };
 
 module.exports = getData;

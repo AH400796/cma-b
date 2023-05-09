@@ -7,7 +7,7 @@
 //   console.log(e.data);
 // };
 
-// ocket.addEventListener('open', function (event) {
+// socket.addEventListener('open', function (event) {
 //     const message = {
 //         // тут Ви можете відправити POST запит з додатковими даними, які відповідають структурі API
 //         // зазвичай, на сервері передбачені спеціальні формати даних для обміну повідомленнями через WebSocket
