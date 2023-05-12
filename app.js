@@ -4,7 +4,11 @@ const cors = require("cors");
 
 const { exclRouter, authRouter } = require("./src/routes/api");
 
-const app = express();
+const app = express({
+  cors: {
+    origin: "*",
+  },
+});
 
 app.use(logger("dev"));
 app.use(cors());
