@@ -40,8 +40,10 @@ mongoose
 
       const fetchData = async () => {
         data = await getData();
-        client.emit("updatedData", data);
-        console.log(`${client.id} recived updated data`);
+        if (users.includes(client.id)) {
+          client.emit("updatedData", data);
+          console.log(`${client.id} recived updated data`);
+        }
       };
 
       const interval = setInterval(() => {
@@ -50,7 +52,7 @@ mongoose
       setIntName = interval;
 
       client.on("disconnect", () => {
-        clearInterval(setIntName);
+        clearInterval(interval);
         const index = users.indexOf(client.id);
         users.splice(index, 1);
         console.log(`${users.length} users connected: user ${client.id} disconnected`);
