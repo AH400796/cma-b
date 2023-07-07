@@ -5,6 +5,6 @@ cryptocurrency arbitrage operations.
 
 The project is expected to be used in conjunction with the front-end part.
 
-#License
+# License
 
 This project is licensed under the MIT License.
